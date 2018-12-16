@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Liste der Interpreten
-permalink: /interpreten/liste
-lang: de
+title: List of Performers
+permalink: /en/performers/list
+lang: en
 ref: performers-list
 ---
 ### Gewinnbeteiligte Interpreten:

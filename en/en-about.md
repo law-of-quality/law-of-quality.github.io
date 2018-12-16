@@ -1,13 +1,15 @@
 ---
 layout: page
 title: Patrick Frank
-permalink: /ueber-patrick/
+permalink: /en/about-patrick/
+lang: en
+ref: about
 ---
 ![Patrick Frank](/assets/img/patrick-frank.jpg)
 
 ### Vita
 
-Geboren am 4.4.1975 in Rio de Janeiro/Brasilien.
+Born on 4.4.1975 in Rio de Janeiro, Brasilien.
 
 Klavierstudium bei Martin Christ, Musiktheoriestudium bei Andreas Nick und Kompositionsstudium bei Thomas Müller und Isabel Mundry. Kompositionsseminare bei Klaus Huber, Chaya Czernowin, Manuel Hidalgo, Alvin Lucier und Peter Eötvös, u.a.
 

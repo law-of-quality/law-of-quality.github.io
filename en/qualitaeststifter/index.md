@@ -3,9 +3,9 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
-title: Qualitätsstifter
-permalink: /qualitaetsstifter/
-lang: de
+title: Quality Founders
+permalink: /en/founders/
+lang: en
 ref: quality-start
 ---
 ### Wie werde ich Qualitätsstifter?

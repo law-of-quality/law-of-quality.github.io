@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Interpreten
-permalink: /interpreten/
-lang: de
+title: Performers
+permalink: /en/performers/
+lang: en
 ref: performers-start
 ---
 ### Ausgezahlte Gewinnbeteiligungen an die Interpretinnen:

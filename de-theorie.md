@@ -5,6 +5,8 @@
 layout: page
 title: Theorie & Hinweise
 permalink: /theorie/
+lang: de
+ref: theory
 ---
 Der Kapitalismus und sein primäres Medium – das Geld – haben dann ihre maximale Wirksamkeit entfaltet, wenn der monetäre Wert zum moralischen Wert wird und beide ineinander verschmelzen.
 
@@ -31,7 +33,39 @@ Natürlich, das ist alles nichts neues, das gabs schon immer. Autoren wie Baudri
 Natürlich, langsam findet ein Umdenken statt. Krisen helfen heilen. Aber nicht wie der Neoliberalismus meint, ohne reflexives Zutun. Paradoxien sollen entfaltet werden.
 
 ## Buchempfehlung:
-{% assign sections = site.theorie-sections | sort: 'order' %} 
-{% for section in sections %} 
-{{section.content}}
-{% endfor %}
+
+### Isabelle Graw: Der grosse Preis
+
+Isabelle Graw: Der große Preis. Kunst zwischen Markt und Celebrity Kultur, 256 Seiten, DuMont Verlag 2008, Euro 19,90
+
+Dadurch, dass sie einen Preis haben, unterscheiden sich Kunstwerke nicht von Dosenfischen – oder von Zahnbehandlungen. Zunächst könnte man darum die These von Isabelle Graw, Kunst und Markt seien miteinander verschränkt, ohne doch in eins zu fallen, trivial finden. Denn eben dies gilt auch für den gegenseitigen Bezug von Fisch und Markt oder professioneller Arbeit und Markt. Märkte konstituieren sich durch Konkurrenz um Zahlungen. An den Objekten, die solche Zahlungen auszulösen vermögen, interessieren dabei ökonomisch niemals alle ihrer Eigenschaften. Verglichen mit anderen Waren gehört manche Kunst, so gesehen, zum Luxussegment des Marktes für dauerhafte Konsumgüter und konkurriert dort beispielsweise mit Pferden, Booten, Möbeln und Schmuck. Dabei ist immer klar, dass man mit Booten anderes anstellen kann als mit Bildern.
+
+[Der grosse Preis](http://www.dumont-buchverlag.de/buch/graw-der-grosse-preis-9783832190071/)
+
+### Caleb Larsen
+Caleb Larsen hat 2008 einen schwarzen Plastikwürfel mit Internet-Verbindung gebaut und einem Script, der das Teil seit dem auf Ebay verkauft, sobald das Ding einen neuen Käufer fand, wird automatisch eine neue Auktion gestartet, die aktuelle Auktion steht bei nicht weniger als $4259.
+
+[Artwork Sells Itself on eBay](http://www.crackajack.de/2010/01/25/artwork-sells-itself-on-ebay/)
+
+### Wolfgang Ullrich
+
+Marktkunst 
+Über eine zeitgenössische Erscheinungsweise des Erhabenen
+
+Auf kaum etwas ist im Kunstbetrieb besser Verlass als auf marktkritische Bemerkungen.
+Schon seit der Romantik ist es Standard, die Sorge zu formulieren, die Kunst könne durch
+kommerzielle Interessen, durch warenökonomische Mechanismen, durch den Pragmatismus
+einer Handelsbeziehung Schaden nehmen. So wird befürchtet, dass auf dem Markt nur Erfolg
+hat, was auch einer Mehrheit gefällt – was also konventionell und harmlos, vielleicht sogar
+trivial und kitschig ist, während das Neue, Ungewohnte – und daher zuerst Befremdende –
+nur wenig Resonanz findet. Kaufen die meisten denn nicht nur das, was sie schon kennen?
+Und ist der Markt damit nicht eine konservative Instanz, die der Weiterentwicklung der Kunst
+schadet? Die vor allem dem Anspruch zuwiderläuft, wonach sich Kunst durch Originalität –
+durch Distanz von bereits vorhandenen, etablierten Werken – auszuzeichnen hat? Ist der
+Markt also nicht der Gegner der Kunst?
+
+Ganzer Text, Download: [Wolfgang Ullrich – Marktkunst.pdf](/assets/pdf/marktkunst.pdf)
+
+### Kunst im Netz: große Quantitäten. 
+Vortrag von Johannes Kreidler, gehalten 12.2.2011 bei der Veranstaltung "Der Kongress bloggt", Kunsthaus Rhenania, Köln.
+<iframe width="480" height="390" src="http://www.youtube.com/embed/ySu-Au0SF_M" frameborder="0" allowfullscreen=""></iframe>

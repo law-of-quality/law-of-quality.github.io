@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Original Partitur
-permalink: /qualitaetsstifter/partitur
-lang: de
+title: Original Manuscript
+permalink: /en/founders/score
+lang: en
 ref: quality-score
 ---
 

@@ -3,9 +3,9 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
-title: Transaktion
-permalink: /qualitaetsstifter/transaktion
-lang: de
+title: Transactions
+permalink: /en/founders/transactions
+lang: en
 ref: quality-transaction
 ---
 ### Transaktion

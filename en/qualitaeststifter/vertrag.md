@@ -3,9 +3,9 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
-title: Vertrag
-permalink: /qualitaetsstifter/vertrag
-lang: de
+title: Contract
+permalink: /en/founders/contract
+lang: en
 ref: quality-contract
 ---
 Download Vertrag:

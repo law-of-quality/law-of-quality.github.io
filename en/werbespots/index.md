@@ -3,10 +3,10 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
-title: Werbespots
-permalink: /werbespots/
+title: Commercials
+permalink: /en/commercials/
 class: commercials
-lang: de
+lang: en
 ref: commercials
 ---
 *All clips by Patrick Frank & Mike Krishnatreya*

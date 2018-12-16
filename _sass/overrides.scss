@@ -11,6 +11,11 @@ $duration: 30s;
     }
 }
 
+.en:lang(en),
+.de:lang(de) {
+    font-weight: 700;
+}
+
 h1,
 .heading {
     // font-family: 'Alegreya', serif;
@@ -63,7 +68,7 @@ body.home>.site-footer {
 
 .partitur-frame {
     transform: rotate(3.5deg);
-    box-shadow: 0 10px 20px rgba(black, .2);
+    box-shadow: 0 4px 40px rgba(black, .2);
     margin-top: -5vw;
     margin-bottom: 5vw;
     border: 10px solid var(--hover-color);

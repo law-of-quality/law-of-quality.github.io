@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Liste der Qualitätsstifter
-permalink: /qualitaetsstifter/liste
-lang: de
+title: List of Quality Founders
+permalink: /en/founders/list
+lang: en
 ref: quality-list
 ---
 
