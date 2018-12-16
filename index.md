@@ -6,13 +6,10 @@ layout: home
 title: Home
 class: home
 ---
-{% include logo-clip.svg %}
+{% include flash1.svg %}
 
 {:.u-centered}
-{% include logo-left.svg %}
-
-{:.u-centered}
-![Partitur](/assets/img/partitur-rahmen.jpg)
+![Partitur](/assets/img/partitur-rahmen.jpg){:.partitur-frame}
 
 The Law of Quality bildet den Kunstmarkt ab: Ein Kunstwerk (die handgeschriebene Originalpartitur im Nussbaumrahmen) - mehrere 'Käufer' (wir nennen sie Qualitätsstifter!) - steigender Preis = steigende Qualität!
 

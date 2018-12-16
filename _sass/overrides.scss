@@ -1,8 +1,23 @@
 $duration: 30s;
+:root {
+    --logo-width: calc(7.5rem * 2);
+    --logo-height: calc(6.48rem * 2);
+}
+
+@include media-query($on-palm) {
+    :root {
+        --logo-width: 7.5rem;
+        --logo-height: 6.48rem;
+    }
+}
+
 h1,
 .heading {
-    font-family: 'Alegreya', serif;
+    // font-family: 'Alegreya', serif;
     font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: var(--alt);
 }
 
 h1,
@@ -17,7 +32,7 @@ h6 {
 body.home {
     background: url(/assets/img/goldleaf.jpg);
     background: var(--background-color);
-    padding: 5vw;
+    padding: 0;
 }
 
 body.menu-open {
@@ -26,17 +41,19 @@ body.menu-open {
 
 .home-content {
     background-color: var(--content-background-color);
-    padding: 4vw;
-    border: 4vw solid var(--content-background-color);
+    padding: 4vw; // border: 6vw solid var(--content-background-color);
+    // border-left: 4vw solid var(--content-background-color);
+    // border-right: 4vw solid var(--content-background-color);
     position: relative;
+    box-shadow: 0 0 5vw rgba(black, .1);
     &:before {
         content: "";
         position: absolute;
+        pointer-events: none;
         top: 0;
         bottom: 0;
         right: 0;
-        left: 0;
-        border: 10px solid var(--logo-color);
+        left: 0; // border: 10px solid var(--logo-color);
     }
 }
 
@@ -44,14 +61,28 @@ body.home>.site-footer {
     padding-bottom: 4rem;
 }
 
+.partitur-frame {
+    transform: rotate(3.5deg);
+    box-shadow: 0 10px 20px rgba(black, .2);
+    margin-top: -5vw;
+    margin-bottom: 5vw;
+    border: 10px solid var(--hover-color);
+}
+
 .logo {
-    background: var(--content-background-color);
-    width: 30%;
-    height: 30%;
-    padding: 2rem;
-    margin: 0 auto;
-    margin-top: -8vw;
-    position: relative;
+    // background: var(--content-background-color);
+    // 750 x 648
+    width: var(--logo-width);
+    height: var(--logo-height); // padding: 2rem;
+    // margin: 0 auto;
+    // margin-top: -10vw;
+    position: fixed;
+    left: 3rem;
+    top: 3rem;
+    transition: fill .2s;
+    &:hover {
+        fill: var(--hover-color);
+    }
 }
 
 .to-do {
@@ -69,11 +100,6 @@ body.home>.site-footer {
     color: white;
     padding: 0 .25rem;
     margin-left: .5rem;
-}
-
-.current-notice {
-    background-color: salmon;
-    color: white;
 }
 
 @-webkit-keyframes ticker {
@@ -150,8 +176,8 @@ body.home>.site-footer {
 #nav-icon4 {
     width: 60px;
     height: 45px;
-    top: $spacing-unit;
-    right: $spacing-unit;
+    top: 3rem;
+    right: 3rem;
     position: fixed;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -163,6 +189,11 @@ body.home>.site-footer {
     transition: .5s ease-in-out;
     cursor: pointer;
     z-index: 100;
+    &:hover {
+        span {
+            background: var(--hover-color);
+        }
+    }
 }
 
 #nav-icon4 span {
@@ -170,7 +201,7 @@ body.home>.site-footer {
     position: absolute;
     height: 9px;
     width: 100%;
-    background: #ccc; // border-radius: 9px;
+    background: var(--logo-color); // border-radius: 9px;
     opacity: 1;
     left: 0;
     -webkit-transform: rotate(0deg);
@@ -207,6 +238,14 @@ body.home>.site-footer {
     transform-origin: left center;
 }
 
+#nav-icon4.open {
+    // right: 4vw;
+}
+
+#nav-icon4.open span {
+    background-color: #fff;
+}
+
 #nav-icon4.open span:nth-child(1) {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -228,4 +267,15 @@ body.home>.site-footer {
     transform: rotate(-45deg);
     top: 39px;
     left: 8px;
+}
+
+// flash
+.flash1 {
+    width: 30vw;
+    height: 26vw;
+    max-width: 500px;
+    left: 50%;
+    margin-left: -15vw;
+    position: relative;
+    top: -4vw;
 }

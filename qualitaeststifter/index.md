@@ -7,7 +7,7 @@ title: Qualitätsstifter
 permalink: /qualitaetsstifter/
 ---
 ### Wie werde ich Qualitätsstifter?
-Qualitätsstifter kann jeder werden, der das Kunstobjekt The Law of Quality zum aktuellen Preis erwirbt. Jeder Qualitätsstifter muss auf der Rückseite des Kunstobjektes seine Unterschrift hinterlassen und sich damit darauf verewigen. Diese Unterschriftenliste, welche den Namen ‚Qualitätsstifter’ trägt, ist immer einsehbar, da der Spezialrahmen ebenso auf der Rückseite Einblick gewährt.
+Qualitätsstifter kann jeder werden, der das Kunstobjekt *The Law of Quality* zum aktuellen Preis erwirbt. Jeder Qualitätsstifter muss auf der Rückseite des Kunstobjektes seine Unterschrift hinterlassen und sich damit darauf verewigen. Diese Unterschriftenliste, welche den Namen ‚Qualitätsstifter’ trägt, ist immer einsehbar, da der Spezialrahmen ebenso auf der Rückseite Einblick gewährt.
 
 ### Warum ist es interessant, Qualitätsstifter zu werden?
 Erstmalig ist es möglich, die Qualität eines Kunstobjektes zu steigern. Ihr Name wird als Qualitätsstifter sowohl auf dem Kunstobjekt selber vermerkt, als auch auf dieser Internetseite eingetragen.

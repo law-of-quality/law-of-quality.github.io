@@ -1,6 +1,20 @@
-- name: logo-color
+- name: hover-color
   value: '#f2cb6c'
+- name: logo-color
+  value: '#444'
 - name: background-color
   value: '#e9e9e9'
 - name: content-background-color
   value: '#f9f9f9'
+- name: flash--a
+  value: '#cdff06'
+- name: flash--a-shadow
+  value: '#b5dd0e'
+- name: flash--b
+  value: '#ff6b61'
+- name: flash--b-shadow
+  value: '#c94c4c'
+- name: alt
+  value: '#999'
+- name: link-color
+  value: salmon

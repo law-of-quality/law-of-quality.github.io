@@ -2,7 +2,8 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: default
+layout: page
+title: intro
 permalink: /home/intro
 ---
 The Law of Quality wurde im Jahre 2010 von Julia Schiwowa und Mirjam Lüthi in Auftrag gegeben. Kurz darauf las der Komponist Patrick Frank den Text des Kulturwissenschaftlers Wolfgang Ullrich mit dem Titel Marktkunst, welcher in der Ausgabe 89 von Lettre International erschien. Inspiriert durch den Artikel, entwickelte Patrick Frank das Konzept The Law of Quality.
