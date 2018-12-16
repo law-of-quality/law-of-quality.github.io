@@ -1,0 +1,47 @@
+- name: Herr Heinz Caflisch, Architekt
+  location: Chur. Auer-Caflisch Architekten
+  amt: 900
+  erhalten: 1050
+  rendite: 16.66%!
+  link: 
+  images: 
+- name: Galerie Markus Vonlanthen, Galerist
+  location: Chur
+  amt: 1200
+  erhalten: 1400
+  rendite: 16.66%!
+  link: 
+  images: 
+- name: Björn Eckerl, Werber
+  location: Frankfurt. 4 für Texas. 
+  amt: 1600
+  erhalten: 1867
+  rendite: 16.66%!
+  link: 
+  images: 
+- name: Stefan Bachmann, Regisseur und Intendant des Theaters Köln
+  location: Köln
+  amt: 2133
+  erhalten: 2488.5
+  rendite: 16.66!
+  link: 
+  images: 
+- name: Daniel Hellmann, Sänger und Theaterschaffender
+  location: Zürich/Berlin
+  amt: 2844
+  erhalten: 3318
+  rendite: 16.66%!!
+  link: 
+  images: 
+- name: Michaela Kretschmann
+  location: Köln
+  amt: 3792
+  erhalten: 4424
+  rendite: 16.66%!!
+  link: 
+  images: 
+- name: Martin Kunzi 
+  location: Zürich
+  amt: 5056
+  link: 
+  images: 
