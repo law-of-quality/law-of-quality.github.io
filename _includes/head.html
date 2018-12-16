@@ -13,4 +13,11 @@
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
   {% endif %}
+  <style>
+    :root {
+      {% for var in site.data.variables %}
+        --{{var.name}}: {{var.value}}; 
+      {% endfor %}
+    }
+  </style>
 </head>

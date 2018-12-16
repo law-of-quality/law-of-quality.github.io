@@ -8,11 +8,8 @@ class: home
 ---
 {% include logo-clip.svg %}
 
-
-<!-- ![The Law of Quality](/assets/img/goldleaf.jpg){:.logo-cutout} -->
-
 {:.u-centered}
-![The Law of Quality](/assets/img/loq-logo.svg)
+{% include logo-left.svg %}
 
 {:.u-centered}
 ![Partitur](/assets/img/partitur-rahmen.jpg)
