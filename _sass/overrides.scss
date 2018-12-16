@@ -2,12 +2,14 @@ $duration: 30s;
 :root {
     --logo-width: calc(7.5rem * 2);
     --logo-height: calc(6.48rem * 2);
+    --body-padding: 3rem;
 }
 
 @include media-query($on-palm) {
     :root {
         --logo-width: 7.5rem;
         --logo-height: 6.48rem;
+        --body-padding: 1rem;
     }
 }
 
@@ -46,7 +48,7 @@ body.menu-open {
 
 .home-content {
     background-color: var(--content-background-color);
-    padding: 4vw; // border: 6vw solid var(--content-background-color);
+    padding: var(--body-padding); // border: 6vw solid var(--content-background-color);
     // border-left: 4vw solid var(--content-background-color);
     // border-right: 4vw solid var(--content-background-color);
     position: relative;
@@ -82,8 +84,8 @@ body.home>.site-footer {
     // margin: 0 auto;
     // margin-top: -10vw;
     position: fixed;
-    left: 3rem;
-    top: 3rem;
+    left: var(--body-padding);
+    top: var(--body-padding);
     transition: fill .2s;
     &:hover {
         fill: var(--hover-color);
@@ -181,8 +183,8 @@ body.home>.site-footer {
 #nav-icon4 {
     width: 60px;
     height: 45px;
-    top: 3rem;
-    right: 3rem;
+    top: var(--body-padding);
+    right: var(--body-padding);
     position: fixed;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
