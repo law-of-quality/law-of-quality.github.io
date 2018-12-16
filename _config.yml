@@ -36,3 +36,9 @@ exclude:
 #   - index.md
 #   - qualitaetsstifter/index.md
 #   - qualitaetsstifter/transaktion.md
+collections:
+  - theorie-sections
+  
+# so I can check it on my phone:
+host: 0.0.0.0
+port: 4000

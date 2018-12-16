@@ -2,9 +2,21 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: default
+layout: home
 title: Home
+class: home
 ---
+{% include logo-clip.svg %}
+
+
+<!-- ![The Law of Quality](/assets/img/goldleaf.jpg){:.logo-cutout} -->
+
+{:.u-centered}
+![The Law of Quality](/assets/img/loq-logo.svg)
+
+{:.u-centered}
+![Partitur](/assets/img/partitur-rahmen.jpg)
+
 The Law of Quality bildet den Kunstmarkt ab: Ein Kunstwerk (die handgeschriebene Originalpartitur im Nussbaumrahmen) - mehrere 'Käufer' (wir nennen sie Qualitätsstifter!) - steigender Preis = steigende Qualität!
 
 Interpreten, die das Musikstück aufführen, werden an den Umsätzen des Kunstwerks beteiligt.
@@ -12,30 +24,35 @@ Interpreten, die das Musikstück aufführen, werden an den Umsätzen des Kunstwe
 Informationen siehe links unter: 
 'Qualitätsstifter' und 'Interpreten'.
 
-A K T U E L L!
+### Neue gewinnbeteiligte Interpreten: 
+Mathias Monro Møller (Tenor) und Daniel Lorenzo (Piano) führten das Musikwerk am 19.9.2015 an der Kölner Musiknacht auf. Sie sind nun gewinnbeteiligte Interpreten. Wir gratulieren!
 
-Martin Kunzi ist neuer Qualitätsstifter! Somit steigt die Qualität auf Stufe 2 der Regionalkunst! Die aktuell gewinnbeteiligten Interpreten, Mathias Monro Møller und Daniel Lorenzo, werden ausbezahlt, ebenso wie die ehemalige Qualitätsstifterin, Michaela Kretschmann.
+### Relation des Preisstandes und der Qualität
 
-Neue gewinnbeteiligte Interpreten: Mathias Monro Møller (Tenor) und Daniel Lorenzo (Piano) führten das Musikwerk am 19.9.2015 an der Kölner Musiknacht auf. Sie sind nun gewinnbeteiligte Interpreten. Wir gratulieren!
+- Transaktion 1: $900: **Provinzkunst**{:.transaction--succeeded}
+- Transaktion 2: $1'200: **Provinzkunst**{:.transaction--succeeded}
+- Transaktion 3: $1'600: **Provinzkunst**{:.transaction--succeeded}
+- Transaktion 4: $2'133: **Provinzkunst**{:.transaction--succeeded}
+- Transaktion 5: $2'844: **Provinzkunst**{:.transaction--succeeded}
+- Transaktion 6: $3'792: **Regionalkunst**{:.transaction--succeeded}
+- Transaktion 7: $5'056: **Regionalkunst**{:.transaction--succeeded}
+- Transaktion 8: $6'741: **Regionalkunst**
+- Transaktion 9: $8'988: **Regionalkunst**
+- Transaktion 10: $11'984: **Regionalkunst**
 
-Relation des Preisstandes und der Qualität
+Freier Markt, [E-Mail hier senden](quality@patrickfrank.ch).
 
-Transaktion 1: 900US$: Provinzkunst --> erfolgt
-Transaktion 2: 1200US$: Provinzkunst --> erfolgt
-Transaktion 3: 1600US$: Provinzkunst --> erfolgt
-Transaktion 4: 2133US$: Provinzkunst --> erfolgt
-Transaktion 5: 2844US$: Provinzkunst --> erfolgt
-Transaktion 6: 3792US$: Regionalkunst --> erfolgt
-Transaktion 7: 5056US$: Regionalkunst --> erfolgt
-Transaktion 8: 6741US$: Regionalkunst
-Transaktion 9: 8988US$: Regionalkunst
-Transaktion 10: 11984US$: Regionalkunst
+- $15'000 – $24'999: **Kleinstadtkunst**
+- $25'000 – $34'999: **Stadtkunst**
+- $35'000 – $49'999: **Grossstadtkunst**
+- $50'000 – $99'999: **Metropolenkunst**
+- ab $100'000: **Weltkunst**
 
-Freier Markt, Angebote über folgendes Kontakformular:
-
-15000US$ – 24999US$: Kleinstadtkunst
-25000US$ – 34999US$: Stadtkunst
-35000US$ – 49999US$: Grossstadtkunst
-50000US$ – 99999US$: Metropolenkunst
-
-ab 100000US$: Weltkunst
+<div class="ticker-wrap">
+<div class="ticker">
+  <div class="ticker__item">Aktuell!!</div>
+    {% for item in site.data.tickers %}
+  <div class="ticker__item">{{item}}</div>
+    {% endfor %}
+</div>
+</div>
