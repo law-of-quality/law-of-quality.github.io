@@ -1,3 +1,5 @@
+- name: base-font-weight
+  value: 400
 - name: hover-color
   value: '#f2cb6c'
 - name: logo-color
@@ -18,3 +20,5 @@
   value: '#999'
 - name: link-color
   value: salmon
+- name: ticker-color
+  value: var(--flash--b)

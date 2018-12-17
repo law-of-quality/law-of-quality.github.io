@@ -12,7 +12,7 @@ Cantarell,
 sans-serif; 
 
 $base-font-size : 18px !default;
-$base-font-weight: 500 !default;
+$base-font-weight: var(--base-font-weight) !default;
 $small-font-size : $base-font-size * 0.875 !default;
 $base-line-height: 1.778 !default;
 $spacing-unit : 30px !default;
