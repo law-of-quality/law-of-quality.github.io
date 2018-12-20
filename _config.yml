@@ -28,6 +28,9 @@ t:
     language: English
     download-the-score: Download the Score
     score: The Score
+    paid: Purchase Price
+    erhalten: Received
+    rendite: Profit
     menu: 
       intro: 
         name: Introduction
@@ -65,6 +68,9 @@ t:
     language: Deutsch
     download-the-score: Partitur Herunterladen
     score: Partitur
+    paid: Gezahlt
+    erhalten: Erhalten
+    rendite: Rendite
     menu: 
       intro: 
         name: Intro

@@ -6,7 +6,7 @@
   rendite: 16.66%!
   link: 
   images: 
-      - caflisch.png
+      - caflisch.jpg
 - name: Galerie Markus Vonlanthen, Galerist
   location: Chur
   amt: 1200
@@ -14,7 +14,7 @@
   rendite: 16.66%!
   link: 
   images: 
-    - volanthen.png
+    - volanthen.jpg
 - name: Björn Eckerl, Werber
   location: Frankfurt. 4 für Texas. 
   amt: 1600
@@ -22,7 +22,7 @@
   rendite: 16.66%!
   link: 
   images: 
-    - eckerl.png
+    - eckerl.jpg
 - name: Stefan Bachmann, Regisseur und Intendant des Theaters Köln
   location: Köln
   amt: 2133
@@ -30,8 +30,8 @@
   rendite: 16.66!
   link: 
   images: 
-    - stefan1.png
-    - stefan2.png
+    - stefan1.jpg
+    - stefan2.jpg
 - name: Daniel Hellmann, Sänger und Theaterschaffender
   location: Zürich/Berlin
   amt: 2844

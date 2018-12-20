@@ -1,14 +1,26 @@
 <div class="founders-slider">
   <h3>{{ site.t[page.lang].founders | "foundersss" }}</h3>
-
+{%- assign foundersLength = site.data.founders.length -%}
   <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "freeScroll": true, "prevNextButtons": false,
-  "pageDots": false, "fullScreen": true }'>
+  "pageDots": false, "fullScreen": true, "initialIndex": {%foundersLength%} }'>
   {%- for founder in site.data.founders -%}
-  <div class="carousel-cell">
-      <p class="founder-slide__name">{{founder.name}}</p>
-      {%- for image in founder.images -%}
-          <img src="/assets/img/founders/{{image}}" alt="{{founder.name}}">
-          {%- endfor -%}
+  <div class="carousel-cell founder-slide">
+      <div class="founder-slide__info">
+        <p class="founder-slide__number">#{{forloop.index}}</p>
+        <p class="founder-slide__name">{{founder.name}}</p>
+        {%- if founder.occupation -%}
+          <p class="founder-slide__occupation">{{founder.occupation}}</p>
+        {%- endif -%}
+        {%- if founder.location -%}
+          <p class="founder-slide__location">{{founder.location}}</p>
+        {%- endif -%}
+        <p class="founder-slide__amount">{{site.t[page.lang].paid}}: ${{ founder.amt }}</p>
+        <p class="founder-slide__erhalten">{{site.t[page.lang].erhalten}}: ${{ founder.erhalten }} </p>
+        <p class="founder-slide__rendite">{{site.t[page.lang].rendite}}: ${{ founder.rendite }}!</p>
+      </div>
+        {%- for image in founder.images -%}
+        <img src="/assets/img/founders/{{image}}" alt="{{founder.name}}">
+        {%- endfor -%}
   </div>
   {%- endfor -%}
 </div>

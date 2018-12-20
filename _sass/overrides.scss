@@ -359,3 +359,15 @@ body.home>.site-footer {
 .score {
   background-color: var(--c-light-gray);
 }
+
+.founder-slide {
+  &__info {
+    position: absolute;
+    background-color: var(--c-light-gray, orange);
+
+    p {
+      line-height: 1;
+      margin: 0;
+    }
+  }
+}

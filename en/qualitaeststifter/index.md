@@ -44,10 +44,4 @@ Qualitätsstifter 2 zahlt 1500 US-Dollars.
 → Der geheime Kunstagent erhält 5% des gesteigerten Preises, d.h. 25 US-Dollars.
 
 ### Quality Founders
-{% assign list = site.data.stifter %}
-{% assign length = list.length %}
-<ol>
-{% for stifter in list reversed %}
-{% include stifter.html %}
-{% endfor %}
-</ol>{: reversed="reversed"}
+{% include founders.html %}
