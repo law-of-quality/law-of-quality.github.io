@@ -1,10 +1,12 @@
 de:
   current-price: '5,056'
   current-value: Regionalkunst
-  current-location: Köln
+  location-title: Aktuell in
+  location: Köln
   font-size: 150
 en: 
   current-price: 5056
   current-value: Regional Art
-  current-location: Cologne
+  location-title: Currently in
+  location: Cologne
   font-size: 150

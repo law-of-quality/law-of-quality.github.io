@@ -21,16 +21,27 @@ port: 4000
 t:
   en:
     description: English thing
+    transactions-title: Price/Quality Relationships
     transaction-title: Transaction
     transaction-success: Success
+    transactions-header-index: Number
+    transactions-header-amount: Price
+    transactions-header-size: Level
+    transactions-header-success: Success
     provincial: Provincial Art
     regional: Regional Art
     language: English
-    download-the-score: Download the Score
+    download-the-score: Download The Score
     score: The Score
     paid: Purchase Price
     erhalten: Received
     rendite: Profit
+    tickers: 
+      - Update!!
+      - Martin Kunzi is the latest Quality Founder! 
+      - The quality has risen to Level 2, Regional Art! 
+      - The current Profit-Sharing Performers, Mathias Monro Møller und Daniel Lorenzo, are being paid out...
+      - As is the former Quality Founder, Michaela Kretschmann.
     menu: 
       intro: 
         name: Introduction
@@ -63,6 +74,11 @@ t:
     description: The Law of Quality ist ein Musikwerk und ein Kunstobjekt, bestimmt für den Kunstmarkt. Das Musikwerk The Law of Quality ist eine Komposition für Klavier und Gesang (oder Instrumentalisten). Das Kunstobjekt The Law of Quality ist das handgeschriebene Originalmanuskript des Musikwerkes, welches jeder erwerben kann (somit wird der Käufer zum Qualitätsstifter).
     transaction-title: Transaktion
     transaction-success: Erfolgt
+    transactions-title: Relation des Preisstandes und der Qualität
+    transactions-header-index: Nummer
+    transactions-header-amount: Preis
+    transactions-header-size: Stufe
+    transactions-header-success: Erfolgt
     provincial: Provinzkunst
     regional: Regionalkunst
     language: Deutsch
@@ -71,6 +87,12 @@ t:
     paid: Gezahlt
     erhalten: Erhalten
     rendite: Rendite
+    tickers: 
+      - Aktuell!!
+      - Martin Kunzi ist neuer Qualitätsstifter! 
+      - Somit steigt die Qualität auf Stufe 2 der Regionalkunst! 
+      - Die aktuell gewinnbeteiligten Interpreten, Mathias Monro Møller und Daniel Lorenzo, werden ausbezahlt...
+      - ebenso wie die ehemalige Qualitätsstifterin, Michaela Kretschmann.
     menu: 
       intro: 
         name: Intro

@@ -68,6 +68,9 @@ Ganzer Text, Download: [Wolfgang Ullrich – Marktkunst.pdf](/assets/pdf/marktku
 
 ### Kunst im Netz: große Quantitäten. 
 Vortrag von Johannes Kreidler, gehalten 12.2.2011 bei der Veranstaltung "Der Kongress bloggt", Kunsthaus Rhenania, Köln.
-<div class="videoWrapper">
-    <iframe width="480" height="390" src="http://www.youtube.com/embed/ySu-Au0SF_M" frameborder="0" allowfullscreen=""></iframe>
+
+<div class="content-column">
+    <div class="videoWrapper">
+        <iframe width="480" height="390" src="http://www.youtube.com/embed/ySu-Au0SF_M" frameborder="0" allowfullscreen=""></iframe>
+    </div>
 </div>

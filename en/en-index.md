@@ -6,10 +6,17 @@ permalink: /en/
 lang: en
 ref: home
 ---
-{% include flash1.svg %}
+
+<div class="u-centered">
+	{% include flash1.svg %}
+</div>
 
 {:.u-centered}
 ![Score](/assets/img/partitur-rahmen.jpg){:.partitur-frame}
+
+<div class="u-centered">
+	{% include flash2.svg %}
+</div>
 
 The Law of Quality bildet den Kunstmarkt ab: Ein Kunstwerk (die handgeschriebene Originalpartitur im Nussbaumrahmen) - mehrere 'Käufer' (wir nennen sie Qualitätsstifter!) - steigender Preis = steigende Qualität!
 
@@ -21,7 +28,6 @@ Informationen siehe links unter:
 ### Neue gewinnbeteiligte Interpreten: 
 Mathias Monro Møller (Tenor) und Daniel Lorenzo (Piano) führten das Musikwerk am 19.9.2015 an der Kölner Musiknacht auf. Sie sind nun gewinnbeteiligte Interpreten. Wir gratulieren!
 
-### Relation des Preisstandes und der Qualität
 {% include transactions.html %}
 
 Freier Markt, [E-Mail hier senden](quality@patrickfrank.ch).
@@ -32,14 +38,7 @@ Freier Markt, [E-Mail hier senden](quality@patrickfrank.ch).
 - $50'000 – $99'999: **Metropolenkunst**
 - ab $100'000: **Weltkunst**
 
-<div class="ticker-wrap">
-<div class="ticker">
-  <div class="ticker__item">Aktuell!!</div>
-    {% for item in site.data.tickers %}
-  <div class="ticker__item">{{item}}</div>
-    {% endfor %}
-</div>
-</div>
+{% include ticker.html %}
 
 In 2010, Julia Schiwowa and Mirjam Lüthi commissioned The Law of Quality. Shortly thereafter, the composer read the text Marktkunst written by Wolfgang Ullrich, cultural studies scholar. The article, published in Lettre International’s 89th issue, inspired Patrick Frank to develop the concept for The Law of Quality.
 The Law of Quality is both a musical work and a work of art designed for the art market. The musical work The Law of Quality is a composition for piano and vocals (or instrumentalists); the work of art The Law of Quality is the handwritten original manuscript of the musical work, which everyone can purchase (thus becoming a quality founder).

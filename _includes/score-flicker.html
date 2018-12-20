@@ -1,19 +1,18 @@
 <div class="score">
-  <h3>{{ site.t[page.lang].score }}</h3>
-  <p>
+  <h2>The Score</h2>
+  <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": false, "freeScroll": true, "prevNextButtons": false,
+  "pageDots": false, "fullScreen": true }'>
+    {%- for page in (0...6) -%}
+    <div class="carousel-cell">
+      <img src="/assets/img/10_partitur-seite{{forloop.index}}.jpg" alt="Manuscript Page {{forloop.index}}">
+    </div>
+    {%- endfor -%}
+  </div>
+  <p class="u-centered">
     <a href="/assets/pdf/the-law-of-qualityiii.pdf" alt="Download The Score" class="download-link download-link__icon">
       {%- include download-file.svg -%}
       <span>{{ site.t[page.lang].download-the-score }}</span>
     </a>
   </p>
-  
-  <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "freeScroll": true, "prevNextButtons": false,
-  "pageDots": false, "fullScreen": true }'>
-  {%- for page in (0...6) -%}
-  <div class="carousel-cell">
-    <img src="/assets/img/10_partitur-seite{{forloop.index}}.jpg" alt="Manuscript Page {{forloop.index}}">
-  </div>
-  {%- endfor -%}
-</div>
 </div>
 

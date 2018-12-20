@@ -76,15 +76,27 @@ body.home>.site-footer {
     padding-bottom: 4rem;
 }
 
+body.home {
+    padding-top: 2rem;
+    @include media-query($on-palm) {
+        padding-top: 8rem;
+    }
+}
+
 main {
-  padding: 0 1rem;
+    padding: 0 1rem 2rem 1rem;
+}
+
+.content-column {
+    max-width: var(--l-max-width);
+    margin: 0 auto;
 }
 
 .partitur-frame {
     box-shadow: 0 4px 40px var(--flash--a);
-    margin-top: -5vw;
-    margin-bottom: 5vw;
+    margin-top: -7vw;
     border: 10px solid var(--flash--a);
+    position: relative;
 }
 
 .logo {
@@ -104,16 +116,15 @@ $logo_min_width: 320px;
 $logo_max_width: 1200px;
 $logo_min_font: 20px;
 $logo_max_font: 48px;
-
 .text-logo {
-  @include fluid-type($logo_min_width, $logo_max_width, $logo_min_font, $logo_max_font);
+    @include fluid-type($logo_min_width, $logo_max_width, $logo_min_font, $logo_max_font);
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1;
 }
 
 .page-title {
-  color: var(--c-light-gray, #ccc)
+    color: var(--c-light-gray, #ccc)
 }
 
 .to-do {
@@ -301,16 +312,50 @@ $logo_max_font: 48px;
     width: 30vw;
     height: 26vw;
     max-width: 500px;
-    left: 50%;
-    margin-left: -15vw;
     position: relative;
     top: -4vw;
+    min-width: 300px;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+.flash2 {
+    width: 30vw;
+    height: 26vw;
+    max-width: 500px;
+    min-width: 300px;
+    min-height: 300px;
+    margin: 0 auto;
+    position: absolute;
+    left: 5vw;
+    top: 15vw;
+    @include media-query($on-palm) {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    text {
+        text-transform: uppercase;
+        font-weight: 700;
+    }
 }
 
 .transactions {
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 2rem;
+    background-color: var(--c-smoke);
     display: grid;
     margin-bottom: 2rem;
+    box-shadow: var(--box-shadow);
+    &>h3 {
+        text-align: left;
+        max-width: none;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
 }
 
 .transaction {
@@ -330,6 +375,11 @@ $logo_max_font: 48px;
         padding: 0 .25rem;
         margin-left: .5rem;
     }
+    &.transactions--header {
+        border-bottom-width: 2px;
+        font-weight: 700;
+        color: var(--c-gray);
+    }
 } // fluid video
 .videoWrapper {
     position: relative;
@@ -338,6 +388,7 @@ $logo_max_font: 48px;
     padding-top: 25px;
     height: 0;
     margin-bottom: 2rem;
+    width: 100%;
 }
 
 .videoWrapper iframe {
@@ -363,7 +414,7 @@ $logo_max_font: 48px;
 .carousel-cell {
     padding: 2rem;
     img {
-        box-shadow: 0 1px 5px rgba(black, .2);
+        box-shadow: 0 10px 24px rgba(black, .15);
     }
 }
 
@@ -376,7 +427,9 @@ $logo_max_font: 48px;
 }
 
 .score {
-    background-color: var(--c-light-gray);
+    background-color: var(--c-smoke);
+    margin: 0 -1rem;
+    padding: 2rem 0;
 }
 
 .founder-slide {

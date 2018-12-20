@@ -6,12 +6,19 @@ permalink: /
 lang: de
 ref: home
 ---
-{% include flash1.svg %}
+
+<div class="u-centered">
+  {% include flash1.svg %}
+</div>
 
 {:.u-centered}
 ![Partitur](/assets/img/partitur-rahmen.jpg){:.partitur-frame}
 
-> The Law of Quality bildet den Kunstmarkt ab: Ein Kunstwerk (die handgeschriebene Originalpartitur im Nussbaumrahmen) - mehrere 'Käufer' (wir nennen sie Qualitätsstifter!) - steigender Preis = steigende Qualität!
+<div class="u-centered">
+  {% include flash2.svg %}
+</div>
+
+The Law of Quality bildet den Kunstmarkt ab: Ein Kunstwerk (die handgeschriebene Originalpartitur im Nussbaumrahmen) - mehrere 'Käufer' (wir nennen sie Qualitätsstifter!) - steigender Preis = steigende Qualität!
 
 Interpreten, die das Musikstück aufführen, werden an den Umsätzen des Kunstwerks beteiligt.
 
@@ -21,7 +28,6 @@ Informationen siehe links unter:
 ### Neue gewinnbeteiligte Interpreten: 
 Mathias Monro Møller (Tenor) und Daniel Lorenzo (Piano) führten das Musikwerk am 19.9.2015 an der Kölner Musiknacht auf. Sie sind nun gewinnbeteiligte Interpreten. Wir gratulieren!
 
-### Relation des Preisstandes und der Qualität
 {% include transactions.html %}
 
 
@@ -33,14 +39,7 @@ Mathias Monro Møller (Tenor) und Daniel Lorenzo (Piano) führten das Musikwerk 
 - **$50'000 – $99'999**: Metropolenkunst
 - **ab $100'000**: Weltkunst
 
-<div class="ticker-wrap">
-<div class="ticker">
-  <div class="ticker__item">Aktuell!!</div>
-    {% for item in site.data.tickers %}
-  <div class="ticker__item">{{item}}</div>
-    {% endfor %}
-</div>
-</div>
+{% include ticker.html %}
 
 The Law of Quality wurde im Jahre 2010 von Julia Schiwowa und Mirjam Lüthi in Auftrag gegeben. Kurz darauf las der Komponist Patrick Frank den Text des Kulturwissenschaftlers Wolfgang Ullrich mit dem Titel Marktkunst, welcher in der Ausgabe 89 von Lettre International erschien. Inspiriert durch den Artikel, entwickelte Patrick Frank das Konzept The Law of Quality.
 
