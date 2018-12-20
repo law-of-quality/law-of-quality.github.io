@@ -8,11 +8,11 @@ c-light-gray: '#ccc'
 c-gray: '#999'
 c-success: '#17c37b'
 c-lime: '#cdff06'
+c-link: salmon
 
 flash--a: '#cdff06'
 flash--a-shadow: '#b5dd0e'
 flash--b: '#ff6b61'
 flash--b-shadow: '#c94c4c'
 alt: '#999'
-link-color: salmon
 ticker-color: var(--flash--b)

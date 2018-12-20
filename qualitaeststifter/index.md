@@ -42,3 +42,6 @@ Qualitätsstifter 2 zahlt 1500 US-Dollars.
 → Die gewinnbeteiligten Interpreten erhalten 30% des gesteigerten Preises, d.h. 150 US-Dollars.
 → Patrick Frank erhält 15% des gesteigerten Preises, d.h. 75 US-Dollars.
 → Der geheime Kunstagent erhält 5% des gesteigerten Preises, d.h. 25 US-Dollars.
+
+### Liste der Qualitätsstifter
+{% include founders.html %}

@@ -1,0 +1,16 @@
+<div class="founders-slider">
+  <h3>{{ site.t[page.lang].founders | "foundersss" }}</h3>
+
+  <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "freeScroll": true, "prevNextButtons": false,
+  "pageDots": false, "fullScreen": true }'>
+  {%- for founder in site.data.founders -%}
+  <div class="carousel-cell">
+      <p class="founder-slide__name">{{founder.name}}</p>
+      {%- for image in founder.images -%}
+          <img src="/assets/img/founders/{{image}}" alt="{{founder.name}}">
+          {%- endfor -%}
+  </div>
+  {%- endfor -%}
+</div>
+</div>
+

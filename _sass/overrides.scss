@@ -337,3 +337,25 @@ body.home>.site-footer {
     padding: .5rem;
   }
 }
+
+.carousel-cell {
+  padding: 2rem;
+
+  img {
+    box-shadow: 0 1px 5px rgba(black, .2);
+  }
+}
+
+.download-link {
+  max-width: var(--l-max-width);
+
+  &__icon  svg {
+
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.score {
+  background-color: var(--c-light-gray);
+}

@@ -3,7 +3,7 @@
 var flkty = new Flickity( elem, {
   // options
   cellAlign: 'left',
-  contain: true
+  contain: false
 });
 
 // element argument can be a selector string

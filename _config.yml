@@ -26,6 +26,8 @@ t:
     provincial: Provincial Art
     regional: Regional Art
     language: English
+    download-the-score: Download the Score
+    score: The Score
     menu: 
       intro: 
         name: Introduction
@@ -61,6 +63,8 @@ t:
     provincial: Provinzkunst
     regional: Regionalkunst
     language: Deutsch
+    download-the-score: Partitur Herunterladen
+    score: Partitur
     menu: 
       intro: 
         name: Intro
@@ -70,7 +74,7 @@ t:
         url: /theorie/
       founders:
         name: Qualitätsstifter
-        url: /qualitaets-stifter/
+        url: /qualitaetsstifter/
       performers: 
         name: Interpreten
         url: /interpreten/

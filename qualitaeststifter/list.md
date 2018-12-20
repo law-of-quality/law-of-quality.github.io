@@ -13,3 +13,6 @@ ref: quality-list
 {% include stifter.html %}
 {% endfor %}
 </ol>{: reversed="reversed"}
+
+
+{% include founders.html %}

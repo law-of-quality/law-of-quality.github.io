@@ -62,7 +62,7 @@ figure,
  */
 
 img {
-    max-width: 100%;
+    // max-width: 100%;
     vertical-align: middle;
 }
 
@@ -112,14 +112,15 @@ h6 {
  */
 
 a {
-    color: var(--link-color);
+    color: var(--c-link);
     text-decoration: none;
     &:visited {
-        color: var(--link-color);
+        color: var(--c-link);
     }
     &:hover {
-        color: white; // text-decoration: underline;
-        background-color: var(--link-color);
+        color: var(--c-link);
+        text-decoration: underline;
+        // background-color: var(--c-link);
     }
     .social-media-list &:hover {
         text-decoration: none;
