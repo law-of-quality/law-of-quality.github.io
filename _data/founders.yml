@@ -6,8 +6,9 @@
   rendite: 16.66%!
   link: 
   images: 
-      - caflisch.jpg
-- name: Galerie Markus Vonlanthen, Galerist
+      - caflisch1.jpg
+- name: Galerie Markus Vonlanthen
+  occupation: Galerist
   location: Chur
   amt: 1200
   erhalten: 1400
@@ -15,7 +16,8 @@
   link: 
   images: 
     - volanthen.jpg
-- name: Björn Eckerl, Werber
+- name: Björn Eckerl
+  occupation: Werber
   location: Frankfurt. 4 für Texas. 
   amt: 1600
   erhalten: 1867
@@ -23,7 +25,8 @@
   link: 
   images: 
     - eckerl.jpg
-- name: Stefan Bachmann, Regisseur und Intendant des Theaters Köln
+- name: Stefan Bachmann
+  occupation: Regisseur und Intendant des Theaters Köln
   location: Köln
   amt: 2133
   erhalten: 2488.5
@@ -31,8 +34,8 @@
   link: 
   images: 
     - stefan1.jpg
-    - stefan2.jpg
-- name: Daniel Hellmann, Sänger und Theaterschaffender
+- name: Daniel Hellmann
+  occupation: Sänger und Theaterschaffender
   location: Zürich/Berlin
   amt: 2844
   erhalten: 3318
@@ -40,7 +43,6 @@
   link: 
   images: 
     - hellmanni.jpg
-    - hellmannii.jpg
 - name: Michaela Kretschmann
   location: Köln
   amt: 3792
@@ -49,9 +51,9 @@
   link: 
   images: 
     - michaela1.jpg
-    - michaela3.jpg
 - name: Martin Kunzi 
   location: Zürich
   amt: 5056
   link: 
   images: 
+    - kunzi.jpg

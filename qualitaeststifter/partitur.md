@@ -5,8 +5,8 @@ permalink: /partitur
 lang: de
 ref: quality-score
 ---
-
-![Original Partitur](/assets/img/partitur-rahmen.jpg)
+{:.u-centered}
+![Original Partitur](/assets/img/partitur-rahmen.jpg){:.partitur-frame}
 
 {:.caption}
 Originalpartitur, Manuskript in Ahorn/Nussbaumholz Rahmen

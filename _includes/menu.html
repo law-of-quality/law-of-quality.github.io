@@ -2,53 +2,75 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
   
-    {% if page_paths %}
+    <header class="headroom animated">
+  {% include text-logo.html %}
+
+      {% if page_paths %}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
-        <div id="nav-icon4">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+          <div id="nav-icon4">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </label>
-
+        
         <div class="trigger">
-    {% assign posts=site.pages | where:"lang", page.lang %}
-    <ul>
- 
-      <li>
-        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-        {% for page in pages %}
-          <a href="{{ page.url }}" class="{{ page.lang }}">{{ site.t[page.lang].language }}</a>{%- if forloop.index == 1 -%}
-          &nbsp;/
-          {%- endif -%}
-          {% endfor %}
-        </li>
-        {% for menu in site.t[page.lang].menu %}
-        <li class={% if menu[1].url == page.url %}active{% endif %}><a href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
-        {% endfor %}
-      <!-- {% for post in posts %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-      {% endfor %} -->
-    </ul>
-        </div>
+          {% assign posts=site.pages | where:"lang", page.lang %}
+          <ul>
+            
+            <li>
+              {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+              {% for page in pages %}
+              <a href="{{ page.url }}" class="{{ page.lang }}">{{ site.t[page.lang].language }}</a>{%- if forloop.index == 1 -%}
+              &nbsp;/
+              {%- endif -%}
+              {% endfor %}
+            </li>
+            {% for menu in site.t[page.lang].menu %}
+            <li class={% if menu[1].url == page.url %}active{% endif %}><a href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
+            {% endfor %}
+            <!-- {% for post in posts %}
+              <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </li>
+              {% endfor %} -->
+            </ul>
+          </div>
+          
+          
+        </nav>
+        {% endif %}
+      </header>
+        
+        
+        
+        
+        <script>
+          var el = document.querySelector('#nav-icon4');
+          var body = document.querySelector('body');
+          var myHeader = document.querySelector("header");
+          
+          
+          el.onclick = function () {
+            el.classList.toggle('open');
+            body.classList.toggle('menu-open');
+          }
 
-      
-      </nav>
-    {% endif %}
+        
 
+            var headroom = new Headroom(myHeader, {
+                "offset": 205,
+                "tolerance": 5,
+                "classes": {
+                  "initial": "animated",
+                  "pinned": "slideDown",
+                  "unpinned": "slideUp"
+                }
+              });
+              headroom.init();
 
-
-
-<script>
-  var el = document.querySelector('#nav-icon4');
-  var body = document.querySelector('body');
-
-  el.onclick = function () {
-    el.classList.toggle('open');
-    body.classList.toggle('menu-open');
-  }
-</script>
+              // to destroy
+              // headroom.destroy();
+          </script>

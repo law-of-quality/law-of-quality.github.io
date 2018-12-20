@@ -29,7 +29,6 @@ figure {
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    background-color: var(--c-background);
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -62,10 +61,14 @@ figure,
  */
 
 img {
-    // max-width: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
     vertical-align: middle;
 }
 
+.flickity-viewport img {
+  max-width: none;
+}
 /**
  * Figures
  */
@@ -113,14 +116,14 @@ h6 {
 
 a {
     color: var(--c-link);
+    font-weight: 700;
     text-decoration: none;
     &:visited {
         color: var(--c-link);
     }
     &:hover {
         color: var(--c-link);
-        text-decoration: underline;
-        // background-color: var(--c-link);
+        text-decoration: underline; // background-color: var(--c-link);
     }
     .social-media-list &:hover {
         text-decoration: none;

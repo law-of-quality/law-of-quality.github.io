@@ -7,7 +7,7 @@ ref: quality-score
 ---
 
 {:.u-centered}
-![Original Partitur](/assets/img/partitur-rahmen.jpg)
+![Original Score](/assets/img/partitur-rahmen.jpg){:.partitur-frame}
 
 {:.caption}
 Originalpartitur, Manuskript in Ahorn/Nussbaumholz Rahmen

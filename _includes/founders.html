@@ -1,12 +1,12 @@
 <div class="founders-slider">
   <h3>{{ site.t[page.lang].founders | "foundersss" }}</h3>
-{%- assign foundersLength = site.data.founders.length -%}
-  <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "freeScroll": true, "prevNextButtons": false,
-  "pageDots": false, "fullScreen": true, "initialIndex": {%foundersLength%} }'>
+  {%- assign foundersLength = site.data.founders.size - 1 -%}
+  <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": false, "freeScroll": false, "prevNextButtons": true,
+  "pageDots": false, "initialIndex": {{site.data.founders.size | minus: 1}} }'>
   {%- for founder in site.data.founders -%}
   <div class="carousel-cell founder-slide">
+      <p class="founder-slide__number">#{{forloop.index}}</p>
       <div class="founder-slide__info">
-        <p class="founder-slide__number">#{{forloop.index}}</p>
         <p class="founder-slide__name">{{founder.name}}</p>
         {%- if founder.occupation -%}
           <p class="founder-slide__occupation">{{founder.occupation}}</p>

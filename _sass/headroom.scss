@@ -1,0 +1,23 @@
+.animated.slideDown {
+    transform:none;
+}
+
+.headroom {
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    top: 0;
+    // height: 6rem;
+    padding: 1rem;
+    background-color: var(--c-background);
+}
+
+.animated {
+    will-change: transform;
+    transition: .4s transform;
+}
+
+.animated.slideUp {
+    transform: translateY(-100%);
+}

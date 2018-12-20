@@ -3,12 +3,13 @@ hover-color: '#f2cb6c'
 c-logo: '#444'
 
 c-background: '#f9f9f9'
+c-primary: '#111'
 c-content-background: '#f9f9f9'
 c-light-gray: '#ccc'
 c-gray: '#999'
 c-success: '#17c37b'
 c-lime: '#cdff06'
-c-link: salmon
+c-link: 'var(--c-primary. #111)'
 
 flash--a: '#cdff06'
 flash--a-shadow: '#b5dd0e'
