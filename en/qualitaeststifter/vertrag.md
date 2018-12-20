@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
 title: Contract
-permalink: /en/founders/contract
+permalink: /en/contract
 lang: en
 ref: quality-contract
 ---

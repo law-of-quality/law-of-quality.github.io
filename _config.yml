@@ -21,5 +21,71 @@ port: 4000
 t:
   en:
     description: English thing
+    transaction-title: Transaction
+    transaction-success: Success
+    provincial: Provincial Art
+    regional: Regional Art
+    language: English
+    menu: 
+      intro: 
+        name: Introduction
+        url: /en/
+      theory: 
+        name: The Theory
+        url: /en/theory/
+      founders:
+        name: The Quality Founders
+        url: /en/founders/
+      performers: 
+        name: Performerrs
+        url: /en/performers/
+      score:
+        name: The Manuscript & Score
+        url: /en/score/
+      contract: 
+        name: The Contract
+        url: /en/contract/
+      patrick:
+        name: The Artist, Patrick Frank
+        url: /en/about-patrick/
+      press:
+        name: Press
+        url: /en/press/
+      commercials: 
+        name: The Commercials
+        url: /en/commercials/
   de:
     description: The Law of Quality ist ein Musikwerk und ein Kunstobjekt, bestimmt für den Kunstmarkt. Das Musikwerk The Law of Quality ist eine Komposition für Klavier und Gesang (oder Instrumentalisten). Das Kunstobjekt The Law of Quality ist das handgeschriebene Originalmanuskript des Musikwerkes, welches jeder erwerben kann (somit wird der Käufer zum Qualitätsstifter).
+    transaction-title: Transaktion
+    transaction-success: Erfolgt
+    provincial: Provinzkunst
+    regional: Regionalkunst
+    language: Deutsch
+    menu: 
+      intro: 
+        name: Intro
+        url: /
+      theory: 
+        name: Theorie & Hinweise
+        url: /theorie/
+      founders:
+        name: Qualitätsstifter
+        url: /qualitaets-stifter/
+      performers: 
+        name: Interpreten
+        url: /interpreten/
+      score:
+        name: Partitur
+        url: /partitur/
+      contract: 
+        name: Vertrag
+        url: /vertrag/
+      patrick:
+        name: Über Patrick Frank
+        url:  /ueber-patrick/
+      press:
+        name: Presse
+        url: /presse/
+      commercials: 
+        name: Werbespots
+        url: /werbespots/

@@ -1,3 +1,9 @@
 .u-centered {
     text-align: center;
 }
+
+.u-hide-small {
+    @include media-query($on-palm) {
+      display: none;
+    }
+}

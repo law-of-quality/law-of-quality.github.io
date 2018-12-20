@@ -16,18 +16,23 @@
         <div class="trigger">
     {% assign posts=site.pages | where:"lang", page.lang %}
     <ul>
-      <li>lang:</li>
+ 
+      <li>
         {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
         {% for page in pages %}
-        <li>
-          <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+          <a href="{{ page.url }}" class="{{ page.lang }}">{{ site.t[page.lang].language }}</a>{%- if forloop.index == 1 -%}
+          &nbsp;/
+          {%- endif -%}
+          {% endfor %}
         </li>
+        {% for menu in site.t[page.lang].menu %}
+        <li class={% if menu[1].url == page.url %}active{% endif %}><a href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
         {% endfor %}
-      {% for post in posts %}
+      <!-- {% for post in posts %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
-      {% endfor %}
+      {% endfor %} -->
     </ul>
         </div>
 

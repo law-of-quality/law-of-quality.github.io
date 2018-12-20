@@ -14,7 +14,7 @@ ref: home
 {:.u-centered}
 ![Partitur](/assets/img/partitur-rahmen.jpg){:.partitur-frame}
 
-The Law of Quality bildet den Kunstmarkt ab: Ein Kunstwerk (die handgeschriebene Originalpartitur im Nussbaumrahmen) - mehrere 'Käufer' (wir nennen sie Qualitätsstifter!) - steigender Preis = steigende Qualität!
+> The Law of Quality bildet den Kunstmarkt ab: Ein Kunstwerk (die handgeschriebene Originalpartitur im Nussbaumrahmen) - mehrere 'Käufer' (wir nennen sie Qualitätsstifter!) - steigender Preis = steigende Qualität!
 
 Interpreten, die das Musikstück aufführen, werden an den Umsätzen des Kunstwerks beteiligt.
 
@@ -25,25 +25,16 @@ Informationen siehe links unter:
 Mathias Monro Møller (Tenor) und Daniel Lorenzo (Piano) führten das Musikwerk am 19.9.2015 an der Kölner Musiknacht auf. Sie sind nun gewinnbeteiligte Interpreten. Wir gratulieren!
 
 ### Relation des Preisstandes und der Qualität
+{% include transactions.html %}
 
-- Transaktion 1: $900: **Provinzkunst**{:.transaction--succeeded}
-- Transaktion 2: $1'200: **Provinzkunst**{:.transaction--succeeded}
-- Transaktion 3: $1'600: **Provinzkunst**{:.transaction--succeeded}
-- Transaktion 4: $2'133: **Provinzkunst**{:.transaction--succeeded}
-- Transaktion 5: $2'844: **Provinzkunst**{:.transaction--succeeded}
-- Transaktion 6: $3'792: **Regionalkunst**{:.transaction--succeeded}
-- Transaktion 7: $5'056: **Regionalkunst**{:.transaction--succeeded}
-- Transaktion 8: $6'741: **Regionalkunst**
-- Transaktion 9: $8'988: **Regionalkunst**
-- Transaktion 10: $11'984: **Regionalkunst**
 
-Freier Markt, [E-Mail hier senden](quality@patrickfrank.ch).
+#### Freier Markt, [E-Mail hier senden](quality@patrickfrank.ch).
 
-- $15'000 – $24'999: **Kleinstadtkunst**
-- $25'000 – $34'999: **Stadtkunst**
-- $35'000 – $49'999: **Grossstadtkunst**
-- $50'000 – $99'999: **Metropolenkunst**
-- ab $100'000: **Weltkunst**
+- **$15'000 – $24'999**: Kleinstadtkunst
+- **$25'000 – $34'999**: Stadtkunst
+- **$35'000 – $49'999**: Grossstadtkunst
+- **$50'000 – $99'999**: Metropolenkunst
+- **ab $100'000**: Weltkunst
 
 <div class="ticker-wrap">
 <div class="ticker">

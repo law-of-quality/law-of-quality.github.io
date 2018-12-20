@@ -22,17 +22,7 @@ Informationen siehe links unter:
 Mathias Monro Møller (Tenor) und Daniel Lorenzo (Piano) führten das Musikwerk am 19.9.2015 an der Kölner Musiknacht auf. Sie sind nun gewinnbeteiligte Interpreten. Wir gratulieren!
 
 ### Relation des Preisstandes und der Qualität
-
-- Transaktion 1: $900: **Provinzkunst**{:.transaction--succeeded}
-- Transaktion 2: $1'200: **Provinzkunst**{:.transaction--succeeded}
-- Transaktion 3: $1'600: **Provinzkunst**{:.transaction--succeeded}
-- Transaktion 4: $2'133: **Provinzkunst**{:.transaction--succeeded}
-- Transaktion 5: $2'844: **Provinzkunst**{:.transaction--succeeded}
-- Transaktion 6: $3'792: **Regionalkunst**{:.transaction--succeeded}
-- Transaktion 7: $5'056: **Regionalkunst**{:.transaction--succeeded}
-- Transaktion 8: $6'741: **Regionalkunst**
-- Transaktion 9: $8'988: **Regionalkunst**
-- Transaktion 10: $11'984: **Regionalkunst**
+{% include transactions.html %}
 
 Freier Markt, [E-Mail hier senden](quality@patrickfrank.ch).
 

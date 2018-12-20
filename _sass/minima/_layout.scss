@@ -87,7 +87,7 @@
     input:checked ~ .trigger {
       display: block;
       padding-bottom: 5px;
-      background-color: var(--link-color);
+      background-color: var(--c-lime);
       position: fixed;
       top: 0;
       left: 0;
@@ -95,9 +95,25 @@
       bottom: 0;
       width: 100%;
       overflow-y: scroll;
+      padding: var(--body-padding, 2rem);
+      box-sizing: border-box;
+
+      ul {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        list-style: none;
+
+        li {
+          &.active {
+            font-weight: 700;
+          }
+        }
+      }
 
       a {
-        color: white;
+        color: var(--c-body);
       }
     }
 

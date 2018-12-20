@@ -1,0 +1,15 @@
+<div class="transactions">
+    {%- for transaction in site.data.transactions -%}
+        <div class="transaction">
+            <div class="transaction--index"><span class="u-hide-small">{{site.t[page.lang].transaction-title}} </span>{{forloop.index}}:</div>
+            <div class="transaction--amount">${{ transaction.price }}</div>
+            {%- assign size = transaction.size -%}
+            <div class="transaction--size"> {{ site.t[page.lang][size] }}</div>
+            <div class="{%- if transaction.success -%}transaction--success{%- endif -%}"> 
+                {%- if transaction.success == true -%}
+                <span class="u-hide-small">{{ site.t[page.lang].transaction-success }} </span>&#x2713;
+                {%- endif -%}
+            </div>
+        </div>
+    {%- endfor -%}
+</div>

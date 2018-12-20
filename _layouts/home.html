@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "de" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'de' }}">
 
 {% include head.html %}
 
@@ -9,9 +9,9 @@
   
   <main class="home-content" aria-label="Content">
       {% include logo-left.svg %}
-    <div class="wrapper">
+    <!-- <div class="wrapper"> -->
       {{ content }}
-    </div>
+    <!-- </div> -->
   </main>
 
   {% include footer.html %}

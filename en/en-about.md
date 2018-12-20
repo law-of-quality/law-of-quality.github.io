@@ -5,6 +5,7 @@ permalink: /en/about-patrick/
 lang: en
 ref: about
 ---
+{:.image}
 ![Patrick Frank](/assets/img/patrick-frank.jpg)
 
 ### Vita
