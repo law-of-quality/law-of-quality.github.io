@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Original Partitur
-permalink: /partitur
+permalink: /partitur/
 lang: de
 ref: quality-score
 ---

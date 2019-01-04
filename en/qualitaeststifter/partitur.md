@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Original Manuscript
-permalink: /en/score
+permalink: /en/score/
 lang: en
 ref: quality-score
 ---
