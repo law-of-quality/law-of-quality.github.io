@@ -3,10 +3,14 @@ de:
   current-value: Regionalkunst
   location-title: Aktuell in
   location: Köln
+  quality-title: Aktuelle Qualität
+  quality: Regionalkunst
   font-size: 150
 en: 
   current-price: 5056
   current-value: Regional Art
   location-title: Currently in
   location: Cologne
+  quality-title: Current Quality
+  quality: Regional Art
   font-size: 150

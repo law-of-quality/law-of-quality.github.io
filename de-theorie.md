@@ -32,7 +32,9 @@ Natürlich, das ist alles nichts neues, das gabs schon immer. Autoren wie Baudri
 
 Natürlich, langsam findet ein Umdenken statt. Krisen helfen heilen. Aber nicht wie der Neoliberalismus meint, ohne reflexives Zutun. Paradoxien sollen entfaltet werden.
 
-## Buchempfehlung:
+
+
+## Buchempfehlung
 
 ### Isabelle Graw: Der grosse Preis
 

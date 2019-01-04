@@ -3,6 +3,6 @@
     <polygon fill="var(--flash--b)" points="738.06 15.35 58.55 171.59 58.55 573.73 632.68 419.9 738.06 15.35" />
     <polygon fill="var(--flash--a)" points="555.04 110.6 0 260.37 0 165.11 598.23 0 555.04 110.6" />
     <polygon fill="var(--flash--a-shadow)" points="0 260.37 58.55 320.07 58.55 244.57 0 260.37" />
-    <text transform="matrix(1, -0.28, 0, 1, 58.56, 214.4)" style="font-size: 50px;fill: var(--flash--b);font-weight: 700;">AKTUELLER PREIS</text>
+    <text transform="matrix(1, -0.28, 0, 1, 58.56, 214.4)" style="font-size: 50px;fill: var(--flash--b);font-weight: 700;">{{ site.t[page.lang].current-price | upcase }}</text>
     <text transform="matrix(1, -0.25, 0, 1, 100, 427.45)" style="font-size: {{site.data.current.de.font-size}};fill: var(--flash--a);font-weight: 700;">${{site.data.current.de.current-price}}</text>
 </svg>

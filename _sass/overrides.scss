@@ -72,7 +72,7 @@ body.menu-open {
     position: fixed;
 }
 
-body.home>.site-footer {
+body.home>.footer {
     padding-bottom: 4rem;
 }
 
@@ -93,9 +93,9 @@ main {
 }
 
 .partitur-frame {
-    box-shadow: 0 4px 40px var(--flash--a);
-    margin-top: -7vw;
-    border: 10px solid var(--flash--a);
+    box-shadow: 0 4px 40px var(--c-frame);
+    margin-top: -3vw;
+    border: 10px solid var(--c-frame);
     position: relative;
 }
 
@@ -168,7 +168,7 @@ $logo_max_font: 48px;
     width: 100%;
     overflow: hidden;
     height: 4rem;
-    background-color: var(--ticker-color);
+    background-color: var(--c-fun);
     padding-left: 100%;
     box-sizing: content-box;
     .ticker {
@@ -195,17 +195,75 @@ $logo_max_font: 48px;
     }
 }
 
-.site-footer {
-    background-color: #eee;
-    border: none;
-    padding: $spacing-unit;
-    &-menu {
-        &__item {
-            &--active {
-                font-weight: 700;
-            }
-        }
+.footer,
+.header {
+  background-color: #eee;
+  border: none;
+  padding: $spacing-unit;
+  &-menu {
+      &__item {
+          &--active {
+              font-weight: 700;
+          }
+      }
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .site-slogan {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+
+    &--copyright {
+      text-align: center;
+      color: var(--c-gray);
+  }
+
+  &--menu {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    margin-bottom: 2rem;
+
+    &-col {
+      width: calc(100%/3);
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+
+      p {
+        margin-bottom: 1rem;
+      }
     }
+
+    &__item {
+      a {
+        font-weight: 400;
+      }
+    }
+
+    &__item--active {
+      a {
+        font-weight: 700;
+        pointer-events: none;
+      }
+    }
+  }
+}
+
+.lang-selector {
+  text-align: center;
+
+  a {
+    font-size: 2rem;
+  }
 }
 
 .logo-cutout {
@@ -313,13 +371,13 @@ $logo_max_font: 48px;
     height: 26vw;
     max-width: 500px;
     position: relative;
-    top: -4vw;
     min-width: 300px;
     min-height: 300px;
     margin: 0 auto;
 }
 
-.flash2 {
+.flash2, 
+.flash3 {
     width: 30vw;
     height: 26vw;
     max-width: 500px;
@@ -338,6 +396,11 @@ $logo_max_font: 48px;
         text-transform: uppercase;
         font-weight: 700;
     }
+}
+
+.flash3 {
+  left: 50vw;
+  top: 15vw;
 }
 
 .transactions {

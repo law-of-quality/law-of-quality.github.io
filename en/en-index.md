@@ -17,6 +17,9 @@ ref: home
 <div class="u-centered">
 	{% include flash2.svg %}
 </div>
+<div class="u-centered">
+	{% include flash3.svg %}
+</div>
 
 The Law of Quality bildet den Kunstmarkt ab: Ein Kunstwerk (die handgeschriebene Originalpartitur im Nussbaumrahmen) - mehrere 'Käufer' (wir nennen sie Qualitätsstifter!) - steigender Preis = steigende Qualität!
 
