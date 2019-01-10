@@ -107,7 +107,7 @@ Jakob Pilgram
 Judit Polgar
 
 ![Jakob Pilgram](/assets/img/pilgram.jpg)
-Jakob Pilgram bei der Aufführung(:.caption)
+*Jakob Pilgram bei der Aufführung*{:.caption}
 
 #### Julia Schiwowa und Mirjam Lüthi:
 
