@@ -17,16 +17,14 @@
         </label>
         
         <div class="trigger">
-                <h2 class="header-heading">{{ site.title | escape }}</h2>
-                
-                <p class="lang-selector">
+                <div class="lang-selector">
                   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
                   {% for page in pages %}
                   <a href="{{ page.url }}" class="{{ page.lang }}">{{ site.t[page.lang].flag }}</a> {%- if forloop.index == 1 -%}
                      &nbsp;
                   {%- endif -%}
                   {% endfor %}
-                </p>
+                </div>
                 
             
                 <div class="header--menu">

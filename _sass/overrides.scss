@@ -119,7 +119,7 @@ main {
 
 $logo_min_width: 320px;
 $logo_max_width: 1200px;
-$logo_min_font: 20px;
+$logo_min_font: 32px;
 $logo_max_font: 48px;
 .text-logo {
     @include fluid-type($logo_min_width, $logo_max_width, $logo_min_font, $logo_max_font);
@@ -202,16 +202,9 @@ $logo_max_font: 48px;
 
 .footer,
 .header {
-    background-color: #eee;
     border: none;
     padding: $spacing-unit;
-    &-menu {
-        &__item {
-            &--active {
-                font-weight: 700;
-            }
-        }
-    }
+
     h2 {
         font-size: 1.8rem;
         line-height: 1;
@@ -231,6 +224,12 @@ $logo_max_font: 48px;
         flex-flow: row nowrap;
         width: 100%;
         margin-bottom: 2rem;
+
+        @include media-query($on-palm) {
+          width: 100%;
+          flex-flow: row wrap;
+        }
+
         &-col {
             width: calc(100%/3);
             display: flex;
@@ -239,23 +238,34 @@ $logo_max_font: 48px;
             p {
                 margin-bottom: 1rem;
             }
+
+            @include media-query($on-palm) {
+              width: 100%;
+              flex-flow: column wrap;
+            }
+
         }
         &__item {
-            a {
-                font-weight: 400;
+          line-height: 2;
+          a {
+              font-weight: 400;
+          }
+            &--active {
+              font-weight: 700;
+
+              a {
+                  font-weight: 700;
+                  pointer-events: none;
+              }
             }
-        }
-        &__item--active {
-            a {
-                font-weight: 700;
-                pointer-events: none;
-            }
+
         }
     }
 }
 
 .lang-selector {
     text-align: center;
+    margin-bottom: 0;
     a {
         font-size: 2rem;
     }
@@ -383,6 +393,7 @@ $logo_max_font: 48px;
     left: 5vw;
     top: 15vw;
     @include media-query($on-palm) {
+      width: 100%;
         position: relative;
         top: 0;
         left: 0;
@@ -394,8 +405,13 @@ $logo_max_font: 48px;
 }
 
 .flash3 {
-    left: 50vw;
+    left: 60vw;
     top: 15vw;
+    @include media-query($on-palm) {
+      position: relative;
+      top: 0;
+      left: 0;
+  }
 }
 
 .transactions {
