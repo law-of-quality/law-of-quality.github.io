@@ -8,57 +8,46 @@ permalink: /en/contract/
 lang: en
 ref: quality-contract
 ---
-Download Vertrag:
 
-{:.to-do}
-Vertrag, Word Dokument
-Vertrag, PDF-File
+Agreement concerning the original score of the work of art “The Law of Quality”
+between Patrick Frank, Langstrasse 10, 8004 Zurich, Switzerland (hereinafter referred to as „artist“)
 
-______________________________________________________
+and
 
-Vertrag
+[first name, last name, full address] (hereinafter referred to as „quality founder“)
 
-Vereinbarung betreffend die Originalpartitur des Kunstwerkes „The Law of Quality“
-zwischen Patrick Frank, Langstrasse 10, 8004 Zürich (nachfolgend „Künstler“)
+Context
+“The Law of Quality” (hereinafter referred to as „the work of art“) is a conceptual oeuvre at the interface of Contemporary Music and visual arts. A detailed description of the concept is available under www.lawofquality.com. In this context, the contractual parties agree on the following:
 
-und
+### 1. Purchase of the original score
+The quality founder undertakes to pay the artist US$ [xxxx]. After receipt of payment, the artist delivers the framed manuscript of the work of art (hereinafter referred to as „original score“) to the quality founder.
+If payment is not received within 14 days after conclusion of this contract, the contract will be voided.
 
-[Vorname Name, Adresse, Ortschaft] (nachfolgend „Qualitätsstifter“)
+### 2. Further claims of the quality founder
+By participating, the quality founder becomes part of the work of art and will be added by name to the list of quality founders. The list is kept by the artist in the original score and may be further published.
 
-Kontext
-„The Law of Quality“ (nachfolgend „das Kunstwerk“) ist ein konzeptionelles Gesamtwerk im Schnittbereich von Neuer Musik und bildender Kunst. Eine detaillierte Beschreibung des Konzepts findet sich unter www.lawofquality.com. In diesem Kontext vereinbaren die Parteien was folgt:
+### 3. Duty of care
+The quality founder undertakes to handle the original score with care and not to damage it.
 
-### 1. Erwerb der Originalpartitur 
-Der Qualitätsstifter verpflichtet sich, dem Künstler US$ [xxxx] zu bezahlen. Der Künstler übergibt dem Qualitätsstifter nach Zahlungseingang das Manuskript des Kunstwerks (nachfolgend „Originalpartitur“) in einem Rahmen.
-Erfolgt der Zahlungseingang nicht innerhalb von 14 Tagen nach Abschluss dieser Vereinbarung, fällt diese dahin.
-
-### 2. Weitere Ansprüche des Qualitätsstifters
-Der Qualitätsstifter wird durch seine Mitwirkung zum Teil des Kunstwerks und namentlich in die Liste der Qualitätsstifter aufgenommen. Die Liste wird vom Künstler in der Originalpartitur geführt und kann anderweitig veröffentlicht werden.
-
-### 3. Sorgfaltspflicht
-Der Qualitätsstifter verpflichtet sich, die Originalpartitur mit Rahmen sorgfältig zu behandeln und nicht zu beschädigen.
-
-### 4. Rückgabe der Originalpartitur
-Der Künstler kann die Originalpartitur vom Qualitätsstifter zurückfordern, wenn ein neues Angebot zum Erwerb der Originalpartitur in der Höhe von 133 % des vom Qualitätsstifter bezahlten Betrags vorliegt.
-Der Qualitätsstifter hat die Originalpartitur innerhalb von zehn Tagen nach Aufforderung durch den Künstler an diesen auszuhändigen oder dem Transport zu übergeben.
-Der Qualitätsstifter erhält nach Rückgabe der Originalpartitur an den Künstler 116,5 % des bezahlten Betrages zurück.
-Der Qualitätsstifter hat keinen Anspruch auf Rückgabe der Originalpartitur.
+### 4. Return of the original score
+The artist has the right to reclaim the original score when a new offer to buy the original score amounting to 133% of the price paid by the quality founder is made.
+The quality founder has to return the original score to the artist or to create a shipment within 10 days after being requested by the artist to do so.
+After returning the original score to the artist, the quality founder will get back 116.5% of the amount paid.
+The quality founder has no right of return of the original score.
 
 ### 5. Transport
-Der Künstler trägt die Kosten und das Risiko des Transports der Originalpartitur zum Qualitätsstifter
-Der Qualitätsstifter trägt die Kosten und das Risiko des Transports der Originalpartitur zum Künstler.
-Der Transport darf ausschliesslich per Einschreiben und in der für die Originalpartitur und den Rahmen massgefertigten Transportkiste erfolgen.
+The artist bears the costs and risks of the transport of the original score to the quality founder.
+The quality founder bears the costs and risks of the transport of the original score to the artist.
+The parcel has to be shipped exclusively via registered mail in the carrying case custom-made for the original score and its frame
 
-### 6. Geistiges Eigentum
-Die Urheberrechte am Kunstwerk und an sämtlichen Bestandteilen, insbesondere die Originalpartitur, liegen beim Künstler.
-Diese Vereinbarung begründet keinerlei Ansprüche des Qualitätsstifters auf Übertragung oder Lizenzierung von Urheberrechten am Kunstwerk oder mit der Aufführung des Werks im Zusammenhang stehende Leistungsschutzrechte. Der Qualitätsstifter ist ohne vorgängige schriftliche Bestätigung des Künstlers insbesondere nicht berechtigt, Kopien der Originalpartitur anzufertigen oder das Werk öffentlich aufzuführen.
+### 6. Intellectual Property
+The artist holds the exclusive copyright on this work of art and all its parts, particularly the original score. 
+This agreement does not constitute any claims made by the quality founder regarding the transfer or licensing of copyrights on the work of art or the ancillary copyright associated with the performance of the work. Without prior written permission by the artist, the quality founder is not entitled to make copies of the original score or to perform the work publicly.
 
-### 7. Schlussbestimmungen
-Dieser Vertrag soll Schweizer Recht unterstehen. Gerichtsstand ist Zürich.
+### 7. Final provisions
+This contract is subject to Swiss law. The place of jurisdiction is Zurich, Switzerland.
 
-______________________________________________________
-Ort, Datum Ort, Datum
+{% include signature.html %}
+{% include contract-download.html %}
 
-______________________________________________________
-Name, Vorname Patrick Frank
-Qualitätssteigerer Künstler
+

@@ -6,10 +6,6 @@ lang: en
 ref: performers-start
 ---
 
-{:.sub-nav}
-- [Profit-Sharing Performers](#profit-sharing-performers)
-- [The Score](/en/score)
-
 Performers receive a 30% share of profits of the price increase by publicly performing The Law of Quality (provided that at least one transaction of the work of art takes place). This is an offer provided by The Law of Quality, which takes place if:
 
 1)The performers notify the Law of Quality headquarters at least 14 days before a public performance. 
@@ -104,7 +100,7 @@ Jakob Pilgram
 Judit Polgar
 
 ![Jakob Pilgram](/assets/img/pilgram.jpg)
-Jakob Pilgram bei der Aufführung(:.caption)
+*Jakob Pilgram bei der Aufführung*{:.caption}
 
 #### Julia Schiwowa und Mirjam Lüthi:
 

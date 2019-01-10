@@ -5,11 +5,13 @@
     <p class="lang-selector">
       {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
       {% for page in pages %}
-      <a href="{{ page.url }}" class="{{ page.lang }}">{{ site.t[page.lang].flag }}</a> {%- if forloop.index == 1 -%}
-         &nbsp;
+      <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a> {%- if forloop.index == 1 -%}
+   
       {%- endif -%}
       {% endfor %}
     </p>
+
+
     
 
     <div class="footer--menu">

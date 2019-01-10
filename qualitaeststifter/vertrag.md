@@ -8,15 +8,6 @@ permalink: /vertrag/
 lang: de
 ref: quality-contract
 ---
-Download Vertrag:
-
-{:.to-do}
-Vertrag, Word Dokument
-Vertrag, PDF-File
-
-______________________________________________________
-
-Vertrag
 
 Vereinbarung betreffend die Originalpartitur des Kunstwerkes „The Law of Quality“
 zwischen Patrick Frank, Langstrasse 10, 8004 Zürich (nachfolgend „Künstler“)
@@ -56,9 +47,5 @@ Diese Vereinbarung begründet keinerlei Ansprüche des Qualitätsstifters auf Ü
 ### 7. Schlussbestimmungen
 Dieser Vertrag soll Schweizer Recht unterstehen. Gerichtsstand ist Zürich.
 
-______________________________________________________
-Ort, Datum Ort, Datum
-
-______________________________________________________
-Name, Vorname Patrick Frank
-Qualitätssteigerer Künstler
+{% include signature.html %}
+{% include contract-download.html %}

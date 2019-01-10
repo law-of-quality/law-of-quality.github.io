@@ -14,13 +14,14 @@ ref: home
 {:.u-centered}
 ![Partitur](/assets/img/partitur-rahmen.jpg){:.partitur-frame}
 
-<div class="u-centered">
+<div class="u-centered flash-holder">
   {% include flash2.svg %}
 </div>
-<div class="u-centered">
+<div class="u-centered flash-holder">
   {% include flash3.svg %}
 </div>
 
+### Was ist The Law of Quality?
 The Law of Quality bildet den Kunstmarkt ab: Ein Kunstwerk (die handgeschriebene Originalpartitur im Nussbaumrahmen) - mehrere 'Käufer' (wir nennen sie Qualitätsstifter!) - steigender Preis = steigende Qualität!
 
 Interpreten, die das Musikstück aufführen, werden an den Umsätzen des Kunstwerks beteiligt.
@@ -61,7 +62,5 @@ Erstmals ist es möglich, die Qualität eines Kunstobjektes zu steigern. Sie mü
 
 Darüber hinaus ist The Law of Quality eine interessante Investition. Steigt der Preis, erhalten Sie Ihre Auslagen zurück und sind mit 50% an der Preissteigerung beteiligt!
 
-Quantity is Quality
-
-Join our Team Quality!
+*Quantity is Quality! Join our Team Quality!*{:.cta}
 

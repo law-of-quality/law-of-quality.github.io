@@ -21,6 +21,7 @@ ref: home
 	{% include flash3.svg %}
 </div>
 
+### What is The Law of Quality?
 The Law of Quality bildet den Kunstmarkt ab: Ein Kunstwerk (die handgeschriebene Originalpartitur im Nussbaumrahmen) - mehrere 'Käufer' (wir nennen sie Qualitätsstifter!) - steigender Preis = steigende Qualität!
 
 Interpreten, die das Musikstück aufführen, werden an den Umsätzen des Kunstwerks beteiligt.
@@ -58,6 +59,4 @@ Regular performances of The Law of Quality are worthwhile!
 For the first time ever, it is possible to increase the quality of a work of art. You only have to buy The Law of Quality to make this possible. You alone, the investor, create quality and relevance by increasing the price. Each investor is bestowed the title of “quality founder” and can enlist in the authorship with his or her signature (on the work of art). The quality founder receives the one of a kind, handwritten original manuscript, which is encased in a special, custom-made walnut frame. As the quality founder, you are free to keep it until the next quality founder purchases The Law of Quality.
 Furthermore, The Law of Quality is a very interesting investment. When the price increases, you will get your expenditure back and have a 50 % share in the price increase!
 
-Quantity is Quality
-
-Join our Team Quality!
+*Quantity is Quality! Join our Team Quality!*{:.cta}

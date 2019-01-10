@@ -13,3 +13,8 @@
   max-width: 10rem;
   margin: 0 auto;
 }
+
+.u-content-column {
+  max-width: var(--l-max-width, 800px);
+  margin: 0 auto;
+}

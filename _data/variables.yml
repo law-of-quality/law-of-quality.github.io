@@ -4,15 +4,17 @@ c-logo: '#444'
 
 c-background: '#f9f9f9'
 c-primary: '#111'
+c-text: '#333'
 c-fun: '#ff259b'
 c-content-background: '#f9f9f9'
 c-light-gray: '#d9d9d9'
 c-gray: '#999'
-c-success: '#17c37b'
+c-success: '#c0f173'
 c-lime: '#cdff06'
 c-link: 'var(--c-primary. #111)'
 c-smoke: '#f1f1f1'
 c-menu: 'var(--c-light-gray)'
+c-footer: 'var(--c-light-gray)'
 
 flash--a: '#f2cb6c'
 flash--a-shadow: '#e9b945'
@@ -23,6 +25,7 @@ ticker-color: var(--flash--b)
 l-max-width: '800px'
 box-shadow: '0 10px 25px rgba(0,0,0,.1)'
 c-frame: 'var(--flash--a)'
+c-cta: 'var(--flash--a)'
 
 # fonts
 flash-1-fontsize: '75px'

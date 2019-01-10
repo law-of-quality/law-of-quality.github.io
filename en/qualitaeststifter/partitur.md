@@ -10,7 +10,7 @@ ref: quality-score
 ![Original Score](/assets/img/partitur-rahmen.jpg){:.partitur-frame}
 
 {:.caption}
-Originalpartitur, Manuskript in Ahorn/Nussbaumholz Rahmen
+Originalpartitur, Manuskript in Ahorn/Nussbaumholz Rahmen<br>
 *Grösse: 55 x 45.5 cm, Vorder- und Rückseite einsehbar.*
 
 {%  include score-flicker.html %}

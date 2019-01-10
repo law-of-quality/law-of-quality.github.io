@@ -26,15 +26,19 @@ t:
     current-price: Current Price
     transactions-title: Price/Quality Relationships
     transaction-title: Transaction
-    transaction-success: Success
-    transactions-header-index: Number
+    transaction-success: Done
+    transactions-header-index: '#'
     transactions-header-amount: Price
     transactions-header-size: Level
     transactions-header-success: Success
+    place-date: Location, Date
+    name-firstname: Last Name, First Name
+    quality-artist: Quality-Increasing Artist
     provincial: Provincial Art
     regional: Regional Art
     language: English
     download-the-score: Download The Score
+    download-the-contract: Download The Contract
     score: The Score
     paid: Purchase Price
     erhalten: Received
@@ -81,14 +85,18 @@ t:
     transaction-title: Transaktion
     transaction-success: Erfolgt
     transactions-title: Relation des Preisstandes und der Qualität
-    transactions-header-index: Nummer
+    transactions-header-index: '#'
     transactions-header-amount: Preis
     transactions-header-size: Stufe
     transactions-header-success: Erfolgt
+    place-date: Ort, Datum
+    name-firstname: Name, Vorname
+    quality-artist: Qualitätssteigerer Künstler
     provincial: Provinzkunst
     regional: Regionalkunst
     language: Deutsch
     download-the-score: Partitur Herunterladen
+    download-the-contract: Vertrag Herunterladen
     score: Partitur
     paid: Gezahlt
     erhalten: Erhalten

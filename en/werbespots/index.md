@@ -21,21 +21,18 @@ ref: commercials
 - **Mother:** Eva Polgar
 - **Father:** Patrick Frank
 - **Daughter:** Sara Beeli
-<div class="videoWrapper">
-    <iframe title="YouTube video player" width="640" height="390" src="http://www.youtube.com/embed/ySZf4xsUTzE" frameborder="0" allowfullscreen=""></iframe>
-</div>
+{% include video.html video-id="ySZf4xsUTzE" %}
+
 
 ### Commercial 2:
 - **Lady:** Eva Polgar
 - **Singer:** Julia Schiwowa
 - **Pianist:** Patrick Frank
-<div class="videoWrapper">
-    <iframe title="YouTube video player" width="640" height="390" src="http://www.youtube.com/embed/QMvs2BlPxOs" frameborder="0" allowfullscreen=""></iframe>
-</div>
+
+{% include video.html video-id="QMvs2BlPxOs" %}
 
 
 ### Commercial 3:
 - **Lady looking important:** Eva Polgar
-<div class="videoWrapper">
-    <iframe title="YouTube video player" width="640" height="390" src="http://www.youtube.com/embed/XzwVQb0_oyk" frameborder="0" allowfullscreen=""></iframe>
-</div>
+
+{% include video.html video-id="XzwVQb0_oyk" %}
