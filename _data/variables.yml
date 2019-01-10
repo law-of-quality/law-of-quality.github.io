@@ -13,7 +13,7 @@ c-success: '#c0f173'
 c-lime: '#cdff06'
 c-link: 'var(--c-primary. #111)'
 c-smoke: '#f1f1f1'
-c-menu: 'var(--c-light-gray)'
+c-menu: 'var(--flash--a)'
 c-footer: 'var(--c-light-gray)'
 
 flash--a: '#f2cb6c'

@@ -2,14 +2,16 @@ $duration: 30s;
 :root {
     --logo-width: calc(7.5rem * 2);
     --logo-height: calc(6.48rem * 2);
-    --body-padding: 3rem;
+    --l-body-padding: 2rem;
+    --font-size: 21px;
 }
 
 @include media-query($on-palm) {
     :root {
         --logo-width: 7.5rem;
         --logo-height: 6.48rem;
-        --body-padding: 1rem;
+        --l-body-padding: 1rem;
+        --font-size: 16px;
     }
 }
 
@@ -20,7 +22,7 @@ $duration: 30s;
 
 h1,
 .heading {
-    // font-family: 'Alegreya', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -70,7 +72,8 @@ img {
 
 body {
     background-color: var(--c-background);
-    padding-top: 14rem;
+    padding-top: var(--l-body-padding);
+    font-size: var(--font-size);
     @include media-query($on-palm) {
         padding-top: 8rem;
     }
@@ -100,6 +103,7 @@ main {
     margin-top: -4vw;
     border: 10px solid var(--c-frame);
     position: relative;
+    margin-bottom: 3rem;
     @include media-query($on-palm) {
         margin-top: -10vw;
     }
@@ -110,8 +114,8 @@ main {
     width: var(--logo-width);
     height: var(--logo-height); // padding: 2rem;
     // position: fixed;
-    left: var(--body-padding);
-    top: var(--body-padding);
+    left: var(--l-body-padding);
+    top: var(--l-body-padding);
     transition: fill .2s;
     &:hover {
         fill: var(--hover-color);
@@ -123,10 +127,12 @@ $logo_max_width: 1200px;
 $logo_min_font: 28px;
 $logo_max_font: 48px;
 .text-logo {
+    font-family: 'Playfair Display', serif;
     @include fluid-type($logo_min_width, $logo_max_width, $logo_min_font, $logo_max_font);
-    font-weight: 700;
+    font-weight: 900;
     text-transform: uppercase;
     line-height: 1;
+    margin-top: -6px;
 }
 
 .page-title {
@@ -206,6 +212,7 @@ $logo_max_font: 48px;
     border: none;
     padding: $spacing-unit;
     h2 {
+        font-family: 'Playfair Display', serif;
         font-size: 1.8rem;
         line-height: 1;
         text-transform: uppercase;
@@ -270,6 +277,9 @@ $logo_max_font: 48px;
     color: var(--c-cta); // background-color: var(--c-fun);
     font-weight: 700;
     padding: .25rem;
+    font-style: normal;
+    font-size: 4rem;
+    line-height: 1.4;
 }
 
 .lang-selector {
@@ -431,6 +441,7 @@ $logo_max_font: 48px;
     top: auto;
     left: auto;
     bottom: 5vw;
+    transform: rotate(10deg);
     @include media-query($on-palm) {
         position: relative;
         top: 0;

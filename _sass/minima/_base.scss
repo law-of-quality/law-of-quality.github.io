@@ -165,7 +165,7 @@ blockquote {
         padding: 0;
     }
     @include media-query($on-palm) {
-        @include relative-font-size(.8);
+        @include relative-font-size(.675);
     }
 }
 

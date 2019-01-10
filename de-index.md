@@ -35,7 +35,7 @@ Mathias Monro Møller (Tenor) und Daniel Lorenzo (Piano) führten das Musikwerk 
 {% include transactions.html %}
 
 
-#### Freier Markt, [E-Mail hier senden](quality@patrickfrank.ch).
+#### Freier Markt, [E-Mail hier senden](mailto:quality@patrickfrank.ch).
 
 - **$15'000 – $24'999**: Kleinstadtkunst
 - **$25'000 – $34'999**: Stadtkunst
@@ -61,6 +61,3 @@ Es lohnt sich, The Law of Quality regelmässig aufzuführen!
 Erstmals ist es möglich, die Qualität eines Kunstobjektes zu steigern. Sie müssen dafür lediglich The Law of Quality kaufen. Durch den höher werdenden Preis wird Qualität und Bedeutung geschaffen – alleine durch Sie, dem Investor. Jeder Investor erhält den Titel ‚Qualitätsstifer’ und kann sich mit seiner Unterschrift (auf das Kunstobjekt) in dessen Urheberschaft eintragen. Dem Qualitätsstifter wird das handgeschriebene Originalmanuskript, welches weltweit nur einmal angefertigt wurde, im Spezial-Nussbaumrahmen zugesandt. Als Qualitätsstifter dürfen Sie es solange behalten, bis der nächste Qualitätsstifter The Law of Quality erwirbt.
 
 Darüber hinaus ist The Law of Quality eine interessante Investition. Steigt der Preis, erhalten Sie Ihre Auslagen zurück und sind mit 50% an der Preissteigerung beteiligt!
-
-*Quantity is Quality! Join our Team Quality!*{:.cta}
-

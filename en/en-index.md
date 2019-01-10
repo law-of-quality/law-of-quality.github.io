@@ -34,7 +34,7 @@ Mathias Monro Møller (Tenor) und Daniel Lorenzo (Piano) führten das Musikwerk 
 
 {% include transactions.html %}
 
-Freier Markt, [E-Mail hier senden](quality@patrickfrank.ch).
+Freier Markt, [E-Mail hier senden](mailto:quality@patrickfrank.ch).
 
 - $15'000 – $24'999: **Kleinstadtkunst**
 - $25'000 – $34'999: **Stadtkunst**
@@ -58,5 +58,3 @@ Regular performances of The Law of Quality are worthwhile!
 ### Why you should be interested in investing in The Law of Quality
 For the first time ever, it is possible to increase the quality of a work of art. You only have to buy The Law of Quality to make this possible. You alone, the investor, create quality and relevance by increasing the price. Each investor is bestowed the title of “quality founder” and can enlist in the authorship with his or her signature (on the work of art). The quality founder receives the one of a kind, handwritten original manuscript, which is encased in a special, custom-made walnut frame. As the quality founder, you are free to keep it until the next quality founder purchases The Law of Quality.
 Furthermore, The Law of Quality is a very interesting investment. When the price increases, you will get your expenditure back and have a 50 % share in the price increase!
-
-*Quantity is Quality! Join our Team Quality!*{:.cta}
