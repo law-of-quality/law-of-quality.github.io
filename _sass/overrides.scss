@@ -1,19 +1,22 @@
 $duration: 30s;
+
 :root {
+    --logo-width: 7.5rem;
+    --logo-height: 6.48rem;
+    --l-body-padding: 1rem;
+    --l-top-padding: 10rem;
+    --font-size: 16px;
+}
+@media screen and (min-width: 1600px) {
+  :root {
     --logo-width: calc(7.5rem * 2);
     --logo-height: calc(6.48rem * 2);
     --l-body-padding: 2rem;
+    --top-padding: var(--l-body-padding);
     --font-size: 21px;
+  }
 }
 
-@include media-query($on-palm) {
-    :root {
-        --logo-width: 7.5rem;
-        --logo-height: 6.48rem;
-        --l-body-padding: 1rem;
-        --font-size: 16px;
-    }
-}
 
 * {
     -webkit-font-smoothing: antialiased;
@@ -72,11 +75,8 @@ img {
 
 body {
     background-color: var(--c-background);
-    padding-top: var(--l-body-padding);
     font-size: var(--font-size);
-    @include media-query($on-palm) {
-        padding-top: 8rem;
-    }
+    padding-top: var(--l-top-padding);
 }
 
 body.menu-open {
@@ -515,6 +515,7 @@ $logo_max_font: 48px;
 }
 
 .videoWrapper iframe {
+  background-color: var(--c-light-gray);
     position: absolute;
     top: 0;
     left: 0;
@@ -614,4 +615,9 @@ $logo_max_font: 48px;
         position: relative;
         top: auto;
     }
+}
+
+.original-manuscript,
+.original-partitur {
+    padding-bottom: 0;
 }

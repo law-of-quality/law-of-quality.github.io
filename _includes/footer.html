@@ -1,19 +1,13 @@
  <footer class="footer">
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
     <p class="site-slogan"><em>{{ site.t[page.lang].site-slogan}}</em></p>
-    
     <p class="lang-selector">
       {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
       {% for page in pages %}
       <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a> {%- if forloop.index == 1 -%}
-   
       {%- endif -%}
       {% endfor %}
     </p>
-
-
-    
-
     <div class="footer--menu">
       <div class="footer--menu-col footer--menu-col1">
         {% for menu in site.t[page.lang].menu limit: 3 %}
@@ -22,7 +16,6 @@
         </p>
         {% endfor %}
       </div>
-
       <div class="footer--menu-col footer--menu-col2">
         {% for menu in site.t[page.lang].menu limit: 3 offset: 3 %}
         <p class="footer--menu__item{% if menu[1].url == page.url %} footer--menu__item--active{% endif %}">
