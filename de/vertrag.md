@@ -20,7 +20,7 @@ Kontext
 „The Law of Quality“ (nachfolgend „das Kunstwerk“) ist ein konzeptionelles Gesamtwerk im Schnittbereich von Neuer Musik und bildender Kunst. Eine detaillierte Beschreibung des Konzepts findet sich unter www.lawofquality.com. In diesem Kontext vereinbaren die Parteien was folgt:
 
 ### 1. Erwerb der Originalpartitur 
-Der Qualitätsstifter verpflichtet sich, dem Künstler US$ [xxxx] zu bezahlen. Der Künstler übergibt dem Qualitätsstifter nach Zahlungseingang das Manuskript des Kunstwerks (nachfolgend „Originalpartitur“) in einem Rahmen.
+Der Qualitätsstifter verpflichtet sich, dem Künstler $[xxxx] zu bezahlen. Der Künstler übergibt dem Qualitätsstifter nach Zahlungseingang das Manuskript des Kunstwerks (nachfolgend „Originalpartitur“) in einem Rahmen.
 Erfolgt der Zahlungseingang nicht innerhalb von 14 Tagen nach Abschluss dieser Vereinbarung, fällt diese dahin.
 
 ### 2. Weitere Ansprüche des Qualitätsstifters

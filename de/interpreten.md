@@ -7,15 +7,13 @@ ref: performers-start
 ---
 ### Ausgezahlte Gewinnbeteiligungen an die Interpretinnen:
 
-1. --> 2. Transaktion: 90 US$ (30% der Differenz von 300 US$): Julia Schiwowa
-2. --> 3. Transaktion:120 US$ (30% der Differenz von 400 US$): Julia Schiwowa
-3. --> 4. Transaktion: 159.90 US$ (30% der Differenz von 533 US$): Julia Schiwowa
-4. --> 5. Transaktion: 213.30 US$ (30% der Differenz von 711 US$): Jakob Pilgram und Judit Polgar
-5. --> 6. Transaktion: 284.40 US$ (30% der Differenz von 948 US$): Jakob Pilgram und Judit Polgar
+1. --> 2. Transaktion: $90 (30% der Differenz von $300): Julia Schiwowa
+2. --> 3. Transaktion: $120 (30% der Differenz von $400): Julia Schiwowa
+3. --> 4. Transaktion: $159.90 (30% der Differenz von $533): Julia Schiwowa
+4. --> 5. Transaktion: $213.30 (30% der Differenz von $711): Jakob Pilgram und Judit Polgar
+5. --> 6. Transaktion: $284.40 (30% der Differenz von $948): Jakob Pilgram und Judit Polgar
 
 #### TOTAL bisher: **$867.60**{:.interpreten__total}
-
-
 
 **Interpreten werden durch eine öffentliche Aufführung von The Law of Quality mit 30% an der Preissteigerung gewinnbeteiligt** (sofern mindestens eine Transaktion des Kunstobjektes stattfindet). Es handelt sich um ein Angebot von The Law of Quality, welches dann eintritt, wenn:
 
@@ -64,8 +62,8 @@ Aufführung am 19.9.2015, Kölner Musiknacht.
 
 Durch den Wechsel des Qualitätsstifters nach Aufführung und somit der Sicherung des Prädikats' gewinnbeteiligte Interpreten', werden Mathias Monrad Møller und Daniel Lorenzo dem Verteilschlüssel entsprechend beteiligt:
 
-1. 5056 US$ (Preis 7. Transaktion) – 3792 US$ (Preis 6. Transaktion) = 1264 US$
-2. 30% von 1264 US$ = 379.20 US$
+1. $5'056 (Preis 7. Transaktion) – $3'792 (Preis 6. Transaktion) = $1'264
+2. 30% von $1'264 = $379.20
 
 
 ![Monrad Lorenz0](/assets/img/monrad-lorenzo.jpg)
@@ -86,8 +84,8 @@ Aufführung am 20.3.2014, Gessnerallee in Zürich.
 
 Jakob Pilgram und Judit Polgar bleiben bis zum 22.4.2014 gewinnbeteiligt; anschliessend wechselt die Gewinnbeteiligung an Daniel Bentz (Tenor) und Judit Polgar (Klavier). Da sich eine Qualitätsstifterin entschieden hat, den Wert des Kunstwerkes via Kauf zu steigern, und dieser Entscheid im Zeitraum der Gewinnbeteiligung Pilgrams' und Polgars' fiel, erhalten beide Interpreten die prozentuale Gewinnausschüttung über 30%. Diese berechnet sich wie folgt:
 
-1. 3792 US$ (Preis 6. Transaktion) – 2844 US$ (Preis 5. Transaktion) = 948 US$
-2. 30% von 948 US$ = 284.40$
+1. $3'792 (Preis 6. Transaktion) – $2'844 (Preis 5. Transaktion) = $948
+2. 30% von $948 = $284.40
 
 Jakob Pilgram
 Judit Polgar

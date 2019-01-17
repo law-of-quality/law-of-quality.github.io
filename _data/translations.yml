@@ -1,0 +1,120 @@
+en:
+  description: English thing
+  site-slogan: Rising Price = Rising Quality!
+  flag: 🇬🇧
+  current-price: Current Price
+  transactions-title: Price/Quality Relationships
+  transaction-title: Transaction
+  transaction-success: Done
+  transactions-header-index: '#'
+  transactions-header-amount: Price
+  transactions-header-size: Level
+  transactions-header-success: Success
+  place-date: Location, Date
+  name-firstname: Last Name, First Name
+  quality-artist: Quality-Increasing Artist
+  provincial: Provincial Art
+  regional: Regional Art
+  language: English
+  download-the-score: Download The Score
+  download-the-contract: Download The Contract
+  score: The Score
+  paid: Purchase Price
+  erhalten: Received
+  rendite: Profit
+  tickers: 
+    - Update!!
+    - Martin Kunzi is the latest Quality Founder! 
+    - The quality has risen to Level 2, Regional Art! 
+    - The current Profit-Sharing Performers, Mathias Monro Møller und Daniel Lorenzo, are being paid out...
+    - As is the former Quality Founder, Michaela Kretschmann.
+    - Quantity is Quality!
+    - Join our Team Quality! Quality!
+  menu: 
+    intro: 
+      name: Introduction
+      url: /en/
+    theory: 
+      name: The Theory
+      url: /en/theory/
+    founders:
+      name: The Quality Founders
+      url: /en/founders/
+    performers: 
+      name: Performers
+      url: /en/performers/
+    score:
+      name: The Manuscript & Score
+      url: /en/score/
+    contract: 
+      name: The Contract
+      url: /en/contract/
+    patrick:
+      name: The Artist, Patrick Frank
+      url: /en/about-patrick/
+    press:
+      name: Press
+      url: /en/press/
+    commercials: 
+      name: The Commercials
+      url: /en/commercials/
+de:
+  description: The Law of Quality ist ein Musikwerk und ein Kunstobjekt, bestimmt für den Kunstmarkt. Das Musikwerk The Law of Quality ist eine Komposition für Klavier und Gesang (oder Instrumentalisten). Das Kunstobjekt The Law of Quality ist das handgeschriebene Originalmanuskript des Musikwerkes, welches jeder erwerben kann (somit wird der Käufer zum Qualitätsstifter).
+  site-slogan: steigender Preis = steigende Qualität!
+  flag: 🇩🇪
+  current-price: Aktueller Preis
+  transaction-title: Transaktion
+  transaction-success: Erfolgt
+  transactions-title: Relation des Preisstandes und der Qualität
+  transactions-header-index: '#'
+  transactions-header-amount: Preis
+  transactions-header-size: Stufe
+  transactions-header-success: Erfolgt
+  place-date: Ort, Datum
+  name-firstname: Name, Vorname
+  quality-artist: Qualitätssteigerer Künstler
+  provincial: Provinzkunst
+  regional: Regionalkunst
+  language: Deutsch
+  download-the-score: Partitur Herunterladen
+  download-the-contract: Vertrag Herunterladen
+  score: Partitur
+  paid: Gezahlt
+  erhalten: Erhalten
+  rendite: Rendite
+  tickers: 
+    - Aktuell!!
+    - Martin Kunzi ist neuer Qualitätsstifter! 
+    - Somit steigt die Qualität auf Stufe 2 der Regionalkunst! 
+    - Die aktuell gewinnbeteiligten Interpreten, Mathias Monro Møller und Daniel Lorenzo, werden ausbezahlt...
+    - ebenso wie die ehemalige Qualitätsstifterin, Michaela Kretschmann.
+    - Quantity is Quality!
+    - Join our Team Quality! Quality!
+  menu: 
+    intro: 
+      name: Intro
+      url: /
+    theory: 
+      name: Theorie & Hinweise
+      url: /theorie/
+    founders:
+      name: Qualitätsstifter
+      url: /qualitaetsstifter/
+    performers: 
+      name: Interpreten
+      url: /interpreten/
+    score:
+      name: Partitur
+      url: /partitur/
+    contract: 
+      name: Vertrag
+      url: /vertrag/
+    patrick:
+      name: Über Patrick Frank
+      url:  /ueber-patrick/
+    press:
+      name: Presse
+      url: /presse/
+    commercials: 
+      name: Werbespots
+      url: /werbespots/

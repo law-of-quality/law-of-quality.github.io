@@ -12,25 +12,22 @@ Performers receive a 30% share of profits of the price increase by publicly perf
 An early notification is strongly recommended.
 2)There is evidence of the public performance, e.g. by means of audio and/or video recording etc.
 
-
 ### Beginning and duration of share of profits
 Beginning with the day of the public performance, the performers receive a share of profits if they adhere to the aforementioned conditions.
 The performers receive a share of profits until new performers perform The Law of Quality; then, the new performers receive the share of profits. The first performers receive an email from the Law of Quality headquarters informing them that they no longer have a share of profits. They can regain it anytime by a new performance.
-
 
 ### Share of profits
 The performers receive 30% of the price increase if the work of art The Law of Quality is bought by a quality founder on the day of the concert or later. Quality founder and performer are completely independent from each other: The Law of Quality can be bought after a concert or at any other time, completely independently from a concert. It is of course in the performers’ interest that the work of art The Law of Quality changes hands as often as possible, since each time, they receive a 30% share of profits of the price increase. An interpreter may also purchase the work of art The Law of Quality.
 
 ### Example
 
-• Quality founder 1 purchases The Law of Quality on April 10th 2011 for 1’000 US$.
+• Quality founder 1 purchases The Law of Quality on April 10th 2011 for $1’000.
 • Performers 1 perform The Law of Quality on April 15th 2011.
-• Quality founder 2 purchases The Law of Quality on April 16th 2011 for 1’300 US$.
-• → Performers 1 receive 30% of the price increase (100% = 300 US$ / 30% = 90 US$).
+• Quality founder 2 purchases The Law of Quality on April 16th 2011 for $1’300.
+• → Performers 1 receive 30% of the price increase (100% = $300 / 30% = $90).
 • Performers 2 perform The Law of Quality on April 20th 2011.
-• Quality founder 3 purchases The Law of Quality on April 20th 2011 for 1’700 US$.
-• → Performers 2 receive 30% of the price increase (100% = 400 US$ / 30% = 120 US$).
-
+• Quality founder 3 purchases The Law of Quality on April 20th 2011 for $1’700.
+• → Performers 2 receive 30% of the price increase (100% = $400 / 30% = $120).
 
 ### Platform
 The Law of Quality offers all performers the possibility to publish their audio and/or video recording of the musical work The Law of Quality on the website www.lawofquality.com. Of course this includes a short portrait of the musicians and a link to their homepage.
@@ -57,12 +54,10 @@ Aufführung am 19.9.2015, Kölner Musiknacht.
 
 Durch den Wechsel des Qualitätsstifters nach Aufführung und somit der Sicherung des Prädikats' gewinnbeteiligte Interpreten', werden Mathias Monrad Møller und Daniel Lorenzo dem Verteilschlüssel entsprechend beteiligt:
 
-1. 5056 US$ (Preis 7. Transaktion) – 3792 US$ (Preis 6. Transaktion) = 1264 US$
-2. 30% von 1264 US$ = 379.20 US$
-
+1. $5'056 (Preis 7. Transaktion) – $3'792 (Preis 6. Transaktion) = $1'264
+2. 30% von $1'264 = $379.20
 
 ![Monrad Lorenz0](/assets/img/monrad-lorenzo.jpg)
-
 
 ### Ehemalige, gewinnbeteiligte Interpreten:
 
@@ -79,8 +74,8 @@ Aufführung am 20.3.2014, Gessnerallee in Zürich.
 
 Jakob Pilgram und Judit Polgar bleiben bis zum 22.4.2014 gewinnbeteiligt; anschliessend wechselt die Gewinnbeteiligung an Daniel Bentz (Tenor) und Judit Polgar (Klavier). Da sich eine Qualitätsstifterin entschieden hat, den Wert des Kunstwerkes via Kauf zu steigern, und dieser Entscheid im Zeitraum der Gewinnbeteiligung Pilgrams' und Polgars' fiel, erhalten beide Interpreten die prozentuale Gewinnausschüttung über 30%. Diese berechnet sich wie folgt:
 
-1. 3792 US$ (Preis 6. Transaktion) – 2844 US$ (Preis 5. Transaktion) = 948 US$
-2. 30% von 948 US$ = 284.40$
+1. $3'792 (Preis 6. Transaktion) – $2'844 (Preis 5. Transaktion) = $948
+2. 30% von $948 = $284.40
 
 Jakob Pilgram
 Judit Polgar

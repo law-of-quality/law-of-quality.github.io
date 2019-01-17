@@ -20,7 +20,7 @@ Context
 “The Law of Quality” (hereinafter referred to as „the work of art“) is a conceptual oeuvre at the interface of Contemporary Music and visual arts. A detailed description of the concept is available under www.lawofquality.com. In this context, the contractual parties agree on the following:
 
 ### 1. Purchase of the original score
-The quality founder undertakes to pay the artist US$ [xxxx]. After receipt of payment, the artist delivers the framed manuscript of the work of art (hereinafter referred to as „original score“) to the quality founder.
+The quality founder undertakes to pay the artist $[xxxx]. After receipt of payment, the artist delivers the framed manuscript of the work of art (hereinafter referred to as „original score“) to the quality founder.
 If payment is not received within 14 days after conclusion of this contract, the contract will be voided.
 
 ### 2. Further claims of the quality founder
