@@ -5,9 +5,6 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: ''
-  label: Transaktionen
-- type: document
   path: _data/translations.yml
   label: "\U0001F1E9\U0001F1EA\U0001F1EC\U0001F1E7"
 - type: document
@@ -19,7 +16,6 @@ sections:
 - type: document
   path: _data/transactions.yml
   label: Transaktionen
-  match: "**/*"
 upload_dir: assets/img/uploads
 public_path: "/assets/img/uploads"
 front_matter_path: ''
