@@ -23,5 +23,3 @@ Preisträger des Werkjahres der Christoph-Delz Stiftung, Basel 2005. Förderung 
 Arbeitet als freischaffender Komponist und Projektentwerfer in Zürich. Studium der Kulturwissenschaften, Philosophie und Soziologie an der Universität Luzern.
 
 [Zur Website von Patrick Frank](https://patrickfrank.ch){: target="_blank"}
-
-{% include video.html video-id="7LQhMzeFIQM" %}
