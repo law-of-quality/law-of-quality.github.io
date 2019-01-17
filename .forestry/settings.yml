@@ -8,12 +8,6 @@ sections:
   path: _data/current.yml
   label: Teasers
   match: "**/*"
-- type: jekyll-pages
-  label: Pages
-  create: all
-- type: jekyll-posts
-  label: Posts
-  create: all
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
