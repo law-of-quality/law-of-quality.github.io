@@ -4,8 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Content
 - type: document
-  path: _config.yml/t
+  path: _config.yml
   label: Translations
 - type: document
   path: _data/founders.yml
