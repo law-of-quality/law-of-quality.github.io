@@ -1,12 +1,13 @@
 ---
 layout: page
 title: Patrick Frank
-permalink: /ueber-patrick/
+permalink: "/ueber-patrick/"
 lang: de
 ref: about
+
 ---
 {:.u-centered}
-![Patrick Frank](/assets/img/patrick-frank.jpg)
+![Patrick Frank](/assets/img/patrick-frank.jpg "Patrick Frank")
 
 ### Vita
 
