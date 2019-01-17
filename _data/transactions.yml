@@ -1,30 +1,30 @@
 - price: 900  
   size: provincial
   success: true
-- price: '1,200'
+- price: '1'200'
   size: provincial
   success: true
-- price: '1,600' 
+- price: '1'600' 
   size: provincial
   success: true
-- price: '2,133' 
+- price: '2'133' 
   size: provincial
   success: true
-- price: '2,844' 
+- price: '2'844' 
   size: provincial
   success: true
-- price: '3,792' 
+- price: '3'792' 
   size: regional
   success: true
-- price: '5,056' 
+- price: '5'056' 
   size: regional
   success: true
-- price: '6,741' 
-  size: regional
-  success: false
-- price: '8,988' 
+- price: '6'741' 
   size: regional
   success: false
-- price: '11,984'
+- price: '8'988' 
+  size: regional
+  success: false
+- price: '11'984'
   size: regional
   success: false
