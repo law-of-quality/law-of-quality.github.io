@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/transactions.yml
   label: Transaktionen
-  match: "**/*"
 - type: heading
   label: Content
 - type: document
