@@ -9,7 +9,7 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: document
   path: _data/translations.yml
   label: "\U0001F1E9\U0001F1EA\U0001F1EC\U0001F1E7"
