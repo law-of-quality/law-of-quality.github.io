@@ -5,9 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: _data/founders.yml
+  label: Stifter
+  match: "**/*"
+- type: document
   path: _data/current.yml
   label: Teasers
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
