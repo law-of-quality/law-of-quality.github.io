@@ -5,19 +5,21 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: _data/transactions.yml
+  path: ''
   label: Transaktionen
-- type: heading
-  label: Content
 - type: document
   path: _data/translations.yml
-  label: Translations
+  label: "\U0001F1E9\U0001F1EA\U0001F1EC\U0001F1E7"
 - type: document
   path: _data/founders.yml
   label: Stifter
 - type: document
   path: _data/current.yml
   label: Teasers
+- type: document
+  path: _data/transactions.yml
+  label: Transaktionen
+  match: "**/*"
 upload_dir: assets/img/uploads
 public_path: "/assets/img/uploads"
 front_matter_path: ''
