@@ -16,8 +16,14 @@ sections:
 - type: document
   path: _data/transactions.yml
   label: Transaktionen
-upload_dir: assets/img/uploads
-public_path: "/assets/img/uploads"
+- type: directory
+  path: pages
+  label: Pages
+  create: all
+  match: "**/*"
+  new_doc_ext: md
+upload_dir: assets/img
+public_path: "/assets/img"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:-:year::month::day:"
