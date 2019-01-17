@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: config.yml
+  label: Translations
+  match: "**/*"
+- type: document
   path: _data/founders.yml
   label: Stifter
   match: "**/*"
