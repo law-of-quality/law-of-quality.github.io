@@ -24,4 +24,4 @@ Arbeitet als freischaffender Komponist und Projektentwerfer in Zürich. Studium 
 
 [Zur Website von Patrick Frank](https://patrickfrank.ch){: target="_blank"}
 
-{% include video.html video-id="4ic7RNS4Dfo" %}
+{% include video.html video-id="7LQhMzeFIQM" %}
