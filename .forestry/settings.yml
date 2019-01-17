@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Content
 - type: document
-  path: _config.yml
+  path: _data/translations.yml
   label: Translations
 - type: document
   path: _data/founders.yml
