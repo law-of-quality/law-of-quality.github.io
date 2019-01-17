@@ -1,5 +1,5 @@
 <div class="founders-slider">
-  <h3>{{ site.t[page.lang].founders | "foundersss" }}</h3>
+  <h3>{{ site.data.translations[page.lang].founders | "foundersss" }}</h3>
   {%- assign foundersLength = site.data.founders.size - 1 -%}
   <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": false, "freeScroll": false, "prevNextButtons": true,
   "pageDots": false, "initialIndex": {{site.data.founders.size | minus: 1}} }'>
@@ -14,9 +14,9 @@
         {%- if founder.location -%}
           <p class="founder-slide__location">{{founder.location}}</p>
         {%- endif -%}
-        <p class="founder-slide__amount">{{site.t[page.lang].paid}}: ${{ founder.amt }}</p>
-        <p class="founder-slide__erhalten">{{site.t[page.lang].erhalten}}: ${{ founder.erhalten }} </p>
-        <p class="founder-slide__rendite">{{site.t[page.lang].rendite}}: ${{ founder.rendite }}!</p>
+        <p class="founder-slide__amount">{{site.data.translations[page.lang].paid}}: ${{ founder.amt }}</p>
+        <p class="founder-slide__erhalten">{{site.data.translations[page.lang].erhalten}}: ${{ founder.erhalten }} </p>
+        <p class="founder-slide__rendite">{{site.data.translations[page.lang].rendite}}: ${{ founder.rendite }}!</p>
       </div>
         {%- for image in founder.images -%}
         <img src="/assets/img/founders/{{image}}" alt="{{founder.name}}">

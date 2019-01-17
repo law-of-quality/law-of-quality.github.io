@@ -1,7 +1,6 @@
 en:
   description: English thing
   site-slogan: Rising Price = Rising Quality!
-  flag: 🇬🇧
   current-price: Current Price
   transactions-title: Price/Quality Relationships
   transaction-title: Transaction
@@ -61,7 +60,6 @@ en:
 de:
   description: The Law of Quality ist ein Musikwerk und ein Kunstobjekt, bestimmt für den Kunstmarkt. Das Musikwerk The Law of Quality ist eine Komposition für Klavier und Gesang (oder Instrumentalisten). Das Kunstobjekt The Law of Quality ist das handgeschriebene Originalmanuskript des Musikwerkes, welches jeder erwerben kann (somit wird der Käufer zum Qualitätsstifter).
   site-slogan: steigender Preis = steigende Qualität!
-  flag: 🇩🇪
   current-price: Aktueller Preis
   transaction-title: Transaktion
   transaction-success: Erfolgt
