@@ -7,7 +7,7 @@ ref: about
 
 ---
 {:.u-centered}
-![](/assets/img/pf-20190117.jpg)
+![Patrick Frank](/assets/img/patrick-frank.jpg "Patrick Frank")
 
 ### Vita
 
