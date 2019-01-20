@@ -8,6 +8,9 @@ permalink: /en/founders/
 lang: en
 ref: quality-start
 ---
+### Quality Founders
+{% include founders.html %}
+
 ### Wie werde ich Qualitätsstifter?
 Qualitätsstifter kann jeder werden, der das Kunstobjekt *The Law of Quality* zum aktuellen Preis erwirbt. Jeder Qualitätsstifter muss auf der Rückseite des Kunstobjektes seine Unterschrift hinterlassen und sich damit darauf verewigen. Diese Unterschriftenliste, welche den Namen ‚Qualitätsstifter’ trägt, ist immer einsehbar, da der Spezialrahmen ebenso auf der Rückseite Einblick gewährt.
 
@@ -43,5 +46,3 @@ Qualitätsstifter 2 zahlt 1500 US-Dollars.
 → Patrick Frank erhält 15% des gesteigerten Preises, d.h. 75 US-Dollars.
 → Der geheime Kunstagent erhält 5% des gesteigerten Preises, d.h. 25 US-Dollars.
 
-### Quality Founders
-{% include founders.html %}
