@@ -17,7 +17,6 @@ $duration: 30s;
   }
 }
 
-
 * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -126,13 +125,19 @@ $logo_min_width: 320px;
 $logo_max_width: 1200px;
 $logo_min_font: 28px;
 $logo_max_font: 48px;
-.text-logo {
-    font-family: 'Playfair Display', serif;
+.text-logo,
+.text-logo a {
+    // font-family: 'Playfair Display', serif;
     @include fluid-type($logo_min_width, $logo_max_width, $logo_min_font, $logo_max_font);
     font-weight: 900;
     text-transform: uppercase;
     line-height: 1;
     margin-top: -6px;
+}
+
+.text-logo a:hover  {
+  text-decoration: none;
+  color: var(--c-fun);
 }
 
 .page-title {
