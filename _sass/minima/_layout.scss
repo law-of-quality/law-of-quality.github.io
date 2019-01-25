@@ -81,6 +81,7 @@
         padding: var(--body-padding, 2rem);
         box-sizing: border-box;
         height: 100vh;
+        padding-top: 5rem;
         ul {
             width: 100%;
             display: grid;
@@ -110,8 +111,19 @@
         label[for="nav-trigger"] {
             float: none;
             margin: 0 auto;
+            margin-top: .55rem;
         }
-    }
+
+      }
+
+  .home & {
+    top: .5rem;
+  }
+}
+.menu-open .site-nav {
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 /**

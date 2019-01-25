@@ -7,35 +7,34 @@ lang: en
 ref: home
 ---
 
+
+<div class="u-centered site-title">
+   <h1>
+   	THE LAW OF QUALITY
+   </h1>
+ 
+</div>
 <div class="u-centered">
-	{% include flash1.svg %}
+  {% include flash1.svg %}
 </div>
 
 {:.u-centered}
-![Score](/assets/img/partitur-rahmen.jpg){:.partitur-frame}
+![Partitur](/assets/img/patrick-frame.jpg){:.partitur-frame}
 
-<div class="u-centered">
-	{% include flash2.svg %}
+<div class="u-centered flash-holder">
+  {% include flash2.svg %}
 </div>
-<div class="u-centered">
-	{% include flash3.svg %}
+<div class="u-centered flash-holder">
+  {% include flash3.svg %}
 </div>
 
-### What is The Law of Quality?
-The Law of Quality bildet den Kunstmarkt ab: Ein Kunstwerk (die handgeschriebene Originalpartitur im Nussbaumrahmen) - mehrere 'Käufer' (wir nennen sie Qualitätsstifter!) - steigender Preis = steigende Qualität!
-
-Interpreten, die das Musikstück aufführen, werden an den Umsätzen des Kunstwerks beteiligt.
-
-Informationen siehe links unter: 
-'Qualitätsstifter' und 'Interpreten'.
-
-### Neue gewinnbeteiligte Interpreten: 
-Mathias Monro Møller (Tenor) und Daniel Lorenzo (Piano) führten das Musikwerk am 19.9.2015 an der Kölner Musiknacht auf. Sie sind nun gewinnbeteiligte Interpreten. Wir gratulieren!
+> **The Law of Quality**{:.intro-title} bildet den Kunstmarkt ab: Ein Kunstwerk (die handgeschriebene Originalpartitur im Nussbaumrahmen) - mehrere 'Käufer' (wir nennen sie Qualitätsstifter!) - steigender Preis = steigende Qualität! Interpreten, die das Musikstück aufführen, werden an den Umsätzen des Kunstwerks beteiligt!
 
 {% include transactions.html %}
 
 {% include ticker.html %}
 
+### Intro
 In 2010, Julia Schiwowa and Mirjam Lüthi commissioned The Law of Quality. Shortly thereafter, the composer read the text Marktkunst written by Wolfgang Ullrich, cultural studies scholar. The article, published in Lettre International’s 89th issue, inspired Patrick Frank to develop the concept for The Law of Quality.
 The Law of Quality is both a musical work and a work of art designed for the art market. The musical work The Law of Quality is a composition for piano and vocals (or instrumentalists); the work of art The Law of Quality is the handwritten original manuscript of the musical work, which everyone can purchase (thus becoming a quality founder).
 

@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
 title: Purchase
-permalink: /purchase/
+permalink: /en/purchase/
 class: buy
 lang: en
 ref: buy

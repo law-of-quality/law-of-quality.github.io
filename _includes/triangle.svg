@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="arrow-slider-1" viewBox="0 0 766 22" width="766" height="22" fill="black" stroke="black">
+   <path d="M765 22 765 15 L39 15 L25 0 L11 15 L0.5 15 L0.5 21.5 Z">
+      <animate class="triangle-animation" attributeType="XML" attributeName="d" from="M765 22 765 15 L39 15 L25 0 L11 15 L0.5 15 L0.5 21.5 Z" to="M765,22L765,15L505.00002429484215,15L490.00002429484215,0L475.00002429484215,15L0.5,15L0.5,21.5 Z" dur="4s" repeatCount="10" fill="freeze" keySplines=" 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1; 0.1 0.8 0.2 1" keyTimes="0;0.22;0.33;0.55;0.66;0.88;1" calcMode="spline" ></animate>
+   </path>
+</svg>

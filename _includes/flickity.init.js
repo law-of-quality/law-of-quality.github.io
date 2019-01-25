@@ -3,12 +3,13 @@
 var flkty = new Flickity( elem, {
   // options
   cellAlign: 'left',
-  contain: false
+  contain: false,
+  on: {
+    ready: function() {
+      console.log('Flickity ready');
+    }
+  }
 });
 
-// element argument can be a selector string
-//   for an individual element
-var flkty = new Flickity( '.main-carousel', {
-  // options
-});
+
 </script>

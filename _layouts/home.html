@@ -2,15 +2,11 @@
 <html lang="{{ page.lang | default: site.lang | default: 'de' }}">
   {% include head.html %}
   <body class="{{page.class}}">
-    <button id="colorSwitcher">colors <em id="count"></em></button>
     {% include menu.html %}
     <main aria-label="Content" class="{{page.title | slugify}}">
       {{ content }}
     </main>
     {% include footer.html %}
-    <script>
-      {% include colorSwitcher.js %}
-    </script>
             <script>
               // nav trigger
               const el = document.querySelector('#nav-icon4');

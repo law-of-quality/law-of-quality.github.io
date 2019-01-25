@@ -2,6 +2,7 @@
 layout: page
 title: Original Partitur
 permalink: /partitur/
+class: score-page
 lang: de
 ref: quality-score
 ---

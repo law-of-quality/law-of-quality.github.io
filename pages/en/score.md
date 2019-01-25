@@ -2,6 +2,7 @@
 layout: page
 title: Original Manuscript
 permalink: /en/score/
+class: score
 lang: en
 ref: quality-score
 ---
