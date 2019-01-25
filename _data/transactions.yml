@@ -1,30 +1,47 @@
-- price: "900"  
-  size: provincial
-  success: true
-- price: "1'200"
-  size: provincial
-  success: true
-- price: "1'600" 
-  size: provincial
-  success: true
-- price: "2'133" 
-  size: provincial
-  success: true
-- price: "2'844" 
-  size: provincial
-  success: true
-- price: "3'792" 
-  size: regional
-  success: true
-- price: "5'056" 
-  size: regional
-  success: true
-- price: "6'741" 
-  size: regional
-  success: false
-- price: "8'988" 
-  size: regional
-  success: false
-- price: "11'984"
-  size: regional
-  success: false
+stepped: 
+  - price: "900"  
+    size: provincial
+    success: true
+  - price: "1'200"
+    size: provincial
+    success: true
+  - price: "1'600" 
+    size: provincial
+    success: true
+  - price: "2'133" 
+    size: provincial
+    success: true
+  - price: "2'844" 
+    size: provincial
+    success: true
+  - price: "3'792" 
+    size: regional
+    success: true
+  - price: "5'056" 
+    size: regional
+    success: true
+  - price: "6'741" 
+    size: regional
+    success: false
+  - price: "8'988" 
+    size: regional
+    success: false
+  - price: "11'984"
+    size: regional
+    success: false
+ranged: 
+  - price: "$15'000 – $24'999"
+    size: small-city
+    success: false
+  - price: "$25'000 – $34'999"
+    size: city
+    success: false
+  - price: "$35'000 – $49'999"
+    size: big-city
+    success: false
+  - price: "$50'000 – $99'999"
+    size: metropolis
+    success: false
+  - price: "> $100'000"
+    size: world
+    success: false

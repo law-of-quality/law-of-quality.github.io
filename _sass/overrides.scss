@@ -5,7 +5,7 @@ $duration: 30s;
     --logo-height: 6.48rem;
     --l-body-padding: 1rem;
     --l-top-padding: 10rem;
-    --font-size: 16px;
+    --font-size: 18px;
 }
 @media screen and (min-width: 1600px) {
   :root {
@@ -87,20 +87,19 @@ body.home>.footer {
 }
 
 body.home {
-    padding-top: 2rem;
+    padding-top: 6rem;
     @include media-query($on-palm) {
         padding-top: 8rem;
     }
 }
 
 main {
-    padding: 0 1rem 2rem 1rem;
+    padding: 0 2rem 2rem 2rem;
 }
 
 .partitur-frame {
-    box-shadow: 0 4px 40px var(--c-frame);
+    box-shadow: 0 4px 40px rgba(0, 0, 0, .3);
     margin-top: -4vw;
-    border: 10px solid var(--c-frame);
     position: relative;
     margin-bottom: 3rem;
     @include media-query($on-palm) {
@@ -129,19 +128,30 @@ $logo_max_font: 48px;
 .text-logo a {
     // font-family: 'Playfair Display', serif;
     @include fluid-type($logo_min_width, $logo_max_width, $logo_min_font, $logo_max_font);
-    font-weight: 900;
+    font-weight: 800;
     text-transform: uppercase;
     line-height: 1;
     margin-top: -6px;
+
+    @include media-query($on-palm) {
+      font-size: 8.7vw;
+    }
+
+    .home & {
+      display: none;
+    }
 }
 
 .text-logo a:hover  {
   text-decoration: none;
-  color: var(--c-fun);
+  color: var(--c-hover);
 }
 
 .page-title {
-    color: var(--c-light-gray, #ccc)
+    color: var(--c-light-gray, #ccc);
+    .home & {
+      display: none;
+    }
 }
 
 .to-do {
@@ -179,18 +189,19 @@ $logo_max_font: 48px;
 
 .ticker-wrap {
     position: fixed;
-    bottom: 0;
+    top: 0;
     left: 0;
     right: 0;
     width: 100%;
     overflow: hidden;
-    height: 4rem;
-    background-color: var(--c-fun);
+    height: var(--ticker-height, 4rem);
+    background-color: var(--c-ticker-bg);
     padding-left: 100%;
     box-sizing: content-box;
+    z-index: 999;
     .ticker {
         display: inline-block;
-        height: 4rem;
+        height:  var(--ticker-height, 4rem);
         line-height: 4rem;
         white-space: nowrap;
         padding-right: 100%;
@@ -207,7 +218,8 @@ $logo_max_font: 48px;
             display: inline-block;
             padding: 0 2rem;
             font-size: 2rem;
-            color: white;
+            color: var(--c-ticker);
+            font-weight: 500;
         }
     }
 }
@@ -217,12 +229,13 @@ $logo_max_font: 48px;
     border: none;
     padding: $spacing-unit;
     h2 {
-        font-family: 'Playfair Display', serif;
+        // font-family: 'Playfair Display', serif;
         font-size: 1.8rem;
         line-height: 1;
         text-transform: uppercase;
         margin: 0;
         margin-bottom: 1rem;
+        font-weight: 900;
     }
     .site-slogan {
         text-align: center;
@@ -262,6 +275,7 @@ $logo_max_font: 48px;
             line-height: 2;
             a {
                 font-weight: 400;
+                color: var(--flash--b);
             }
             &--active {
                 font-weight: 700;
@@ -276,6 +290,7 @@ $logo_max_font: 48px;
 
 .footer {
     background-color: var(--c-footer, #ccc);
+    color: var(--flash--b);
 }
 
 .cta {
@@ -329,9 +344,9 @@ $logo_max_font: 48px;
     cursor: pointer;
     z-index: 100;
     &:hover {
-        span {
-            background: var(--hover-color);
-        }
+      span {
+        background: var(--c-hover);
+      }
     }
 }
 
@@ -470,22 +485,33 @@ $logo_max_font: 48px;
     display: grid;
     margin-bottom: 2rem;
     box-shadow: var(--box-shadow);
-    &>h3 {
+    &>h2 {
         text-align: left;
         max-width: none;
         margin: 0;
         margin-bottom: 2rem;
     }
+    &>h3 {
+      text-align: left;
+      margin: 0;
+    }
+    &--section {
+      margin-bottom: 2rem;
+    }
 }
 
 .transaction {
     display: grid;
-    grid-template-columns: repeat(3, 1fr) 100px;
+    grid-template-columns: repeat(2, 1fr) 200px 100px;
     justify-items: start;
     border-bottom: 1px solid var(--c-gray);
     padding: .25rem 0;
     @include media-query($on-palm) {
         grid-template-columns: 40px 100px auto 50px;
+
+        .transactions--section-2.transactions--header {
+          grid-template-columns: auto auto 50px;
+        }
     }
     &--index {
         color: var(--c-gray)
@@ -493,10 +519,15 @@ $logo_max_font: 48px;
     &--amount {
         font-weight: 700;
     }
-    &--success {
+    &--success,
+    &--buy {
         justify-self: end;
         background-color: var(--c-success);
         padding: 0 .25rem;
+    }
+
+    &--buy {
+      background: none;
     }
     &--header {
         &:last-child {
@@ -508,7 +539,50 @@ $logo_max_font: 48px;
         font-weight: 700;
         color: var(--c-gray);
     }
-} // fluid video
+} 
+
+.button {
+  background-color: var(--flash--a);
+  color: var(--c-reverse);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+&--buy-now {
+  svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+
+  &:hover {
+    background-color: var(--flash--a-shadow);
+    box-shadow: 0 1px 5px rgba(black, .2);
+  }
+}
+}
+
+.transactions--section-2 .transaction {
+  grid-template-columns: 1fr 200px 100px;
+  @include media-query($on-palm) {
+    grid-template-columns: repeat(2, 1fr) 100px;
+  }
+}
+
+// fluid video
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%;
@@ -625,4 +699,44 @@ $logo_max_font: 48px;
 .original-manuscript,
 .original-partitur {
     padding-bottom: 0;
+}
+
+.intro-title {
+  text-transform: uppercase;
+  font-size: 3rem;
+  display: inline-block;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  border: 0;
+  max-width: 30rem;
+  margin: 0 auto;
+  p {
+    // background-color: var(--flash--a);
+    // padding: 2rem;
+    color: var(--flash--a);
+    box-sizing: border-box;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.4;
+
+    &:before, &:after {
+      content: '~';
+      width: 100%;
+      display: inline-block;
+      font-size: 2rem;
+    }
+  }
+}
+
+#colorSwitcher {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 9999;
 }

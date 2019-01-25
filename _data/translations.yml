@@ -3,17 +3,26 @@ en:
   site-slogan: Rising Price = Rising Quality!
   current-price: Current Price
   transactions-title: Price/Quality Relationships
+  transactions-section1-title: Progressive
+  transactions-section2-title: Free Market
   transaction-title: Transaction
   transaction-success: Done
   transactions-header-index: '#'
   transactions-header-amount: Price
   transactions-header-size: Level
   transactions-header-success: Success
+  buy: Buy now!
+  buy-page: purchase
   place-date: Location, Date
   name-firstname: Last Name, First Name
   quality-artist: Quality-Increasing Artist
   provincial: Provincial Art
   regional: Regional Art
+  small-city: Small Town Art
+  city: City Art
+  big-city: Large City Art
+  metropolis: Metropolitan Art
+  world: World Art
   language: English
   download-the-score: Download The Score
   download-the-contract: Download The Contract
@@ -64,15 +73,24 @@ de:
   transaction-title: Transaktion
   transaction-success: Erfolgt
   transactions-title: Relation des Preisstandes und der Qualität
+  transactions-section1-title: Stufenweise
+  transactions-section2-title: Freier Markt
   transactions-header-index: '#'
   transactions-header-amount: Preis
   transactions-header-size: Stufe
   transactions-header-success: Erfolgt
+  buy: Jetzt kaufen!
+  buy-page: kaufen
   place-date: Ort, Datum
   name-firstname: Name, Vorname
   quality-artist: Qualitätssteigerer Künstler
   provincial: Provinzkunst
   regional: Regionalkunst
+  small-city: Kleinstadtkunst
+  city: Stadtkunst
+  big-city: Grossstadtkunst
+  metropolis: Metropolenkunst
+  world: Weltkunst
   language: Deutsch
   download-the-score: Partitur Herunterladen
   download-the-contract: Vertrag Herunterladen

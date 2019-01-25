@@ -34,14 +34,6 @@ Mathias Monro Møller (Tenor) und Daniel Lorenzo (Piano) führten das Musikwerk 
 
 {% include transactions.html %}
 
-Freier Markt, [E-Mail hier senden](mailto:quality@patrickfrank.ch).
-
-- $15'000 – $24'999: **Kleinstadtkunst**
-- $25'000 – $34'999: **Stadtkunst**
-- $35'000 – $49'999: **Grossstadtkunst**
-- $50'000 – $99'999: **Metropolenkunst**
-- ab $100'000: **Weltkunst**
-
 {% include ticker.html %}
 
 In 2010, Julia Schiwowa and Mirjam Lüthi commissioned The Law of Quality. Shortly thereafter, the composer read the text Marktkunst written by Wolfgang Ullrich, cultural studies scholar. The article, published in Lettre International’s 89th issue, inspired Patrick Frank to develop the concept for The Law of Quality.

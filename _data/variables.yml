@@ -1,27 +1,33 @@
 base-font-weight: 400
-hover-color: '#f2cb6c'
 c-logo: '#444'
 
 c-background: '#f9f9f9'
 c-primary: '#111'
+c-reverse: '#fff'
 c-text: '#333'
-c-fun: '#ff259b'
+c-fun2: '#ff259b'
+c-fun: '#b7f9ea'
+c-fun: '#cffff4'
 c-content-background: '#f9f9f9'
 c-light-gray: '#d9d9d9'
 c-gray: '#999'
-c-success: '#c0f173'
+c-success: 'var(--c-lime)'
 c-lime: '#cdff06'
-c-link: 'var(--c-primary. #111)'
+c-link: 'var(--c-primary, #111)'
+c-buy: 'dodgerblue'
 c-smoke: '#f1f1f1'
 c-menu: 'var(--flash--a)'
-c-footer: 'var(--c-light-gray)'
+c-footer: 'var(--flash--a)'
+c-hover: 'var(--flash--a)'
 
 flash--a: '#f2cb6c'
 flash--a-shadow: '#e9b945'
 flash--b: 'var(--c-fun)'
-flash--b-shadow: '#e21e88'
+flash--b-shadow: '#9ddfd0'
 alt: '#999'
-ticker-color: var(--flash--b)
+c-ticker: "white"
+c-ticker-bg: "var(--c-fun2)"
+ticker-height: 4rem
 l-max-width: '800px'
 box-shadow: '0 10px 25px rgba(0,0,0,.1)'
 c-frame: 'var(--flash--a)'

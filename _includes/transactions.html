@@ -1,22 +1,49 @@
 <div class="transactions">
-    <h3>{{ site.data.translations[page.lang].transactions-title}}</h3>
+    <h2>{{ site.data.translations[page.lang].transactions-title}}</h2>
+    <h3>{{ site.data.translations[page.lang].transactions-section1-title}}</h3>
     <div class="transaction transactions--header">
         <div class="transaction--header">{{ site.data.translations[page.lang].transactions-header-index}}</div>
         <div class="transaction--header">{{ site.data.translations[page.lang].transactions-header-amount}}</div>
         <div class="transaction--header">{{ site.data.translations[page.lang].transactions-header-size}}</div>
         <div class="transaction--header">{{ site.data.translations[page.lang].transactions-header-success}}</div>
     </div>
-    {%- for transaction in site.data.transactions -%}
+    <div class="transactions--section transactions--section-1">
+    {%- for transaction in site.data.transactions.stepped -%}
         <div class="transaction">
             <div class="transaction--index"><span class="u-hide-small">{{site.data.translations[page.lang].transaction-title}} </span>{{forloop.index}}:</div>
             <div class="transaction--amount">${{ transaction.price }}</div>
             {%- assign size = transaction.size -%}
             <div class="transaction--size"> {{ site.data.translations[page.lang][size] }}</div>
-            <div class="{%- if transaction.success -%}transaction--success{%- endif -%}"> 
+            <div class="{%- if transaction.success -%}transaction--success{% else %}transaction--buy{%- endif -%}"> 
                 {%- if transaction.success == true -%}
                 <span class="u-hide-small">{{ site.data.translations[page.lang].transaction-success }} </span>&#x2713;
+                {% else %}
+                  {% include buy.svg %}
                 {%- endif -%}
             </div>
         </div>
     {%- endfor -%}
+    </div>
+    <h3>{{ site.data.translations[page.lang].transactions-section2-title}}</h3>
+    <div class="transactions--section transactions--section-2">
+    <div class="transaction transactions--header">
+        <div class="transaction--header">{{ site.data.translations[page.lang].transactions-header-amount}}</div>
+        <div class="transaction--header">{{ site.data.translations[page.lang].transactions-header-size}}</div>
+        <div class="transaction--header">{{ site.data.translations[page.lang].transactions-header-success}}</div>
+    </div>
+    {%- for transaction in site.data.transactions.ranged -%}
+        <div class="transaction">
+            <div class="transaction--amount">{{ transaction.price }}</div>
+            {%- assign size = transaction.size -%}
+            <div class="transaction--size"> {{ site.data.translations[page.lang][size] }}</div>
+            <div class="{%- if transaction.success -%}transaction--success{% else %}transaction--buy{%- endif -%}"> 
+                {%- if transaction.success == true -%}
+                <span class="u-hide-small">{{ site.data.translations[page.lang].transaction-success }} </span>&#x2713;
+                {% else %}
+                 {% include buy.svg %}
+                {%- endif -%}
+            </div>
+        </div>
+    {%- endfor -%}
+    </div>
 </div>
