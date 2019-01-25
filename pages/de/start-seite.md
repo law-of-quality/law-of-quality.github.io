@@ -8,6 +8,12 @@ ref: home
 ---
 
 
+<div class="u-centered site-title">
+   <h1>
+   	THE LAW OF QUALITY
+   </h1>
+ 
+</div>
 <div class="u-centered">
   {% include flash1.svg %}
 </div>

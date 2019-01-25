@@ -58,31 +58,3 @@
         </nav>
         {% endif %}
       </header>
-        
-        
-        
-        
-        <script>
-          var el = document.querySelector('#nav-icon4');
-          var body = document.querySelector('body');
-          var myHeader = document.querySelector("header");
-          
-          
-          el.onclick = function () {
-            el.classList.toggle('open');
-            body.classList.toggle('menu-open');
-          }
-
-        
-
-            var headroom = new Headroom(myHeader, {
-                "offset": 205,
-                "tolerance": 5,
-                "classes": {
-                  "initial": "animated",
-                  "pinned": "slideDown",
-                  "unpinned": "slideUp"
-                }
-              });
-              headroom.init();
-          </script>

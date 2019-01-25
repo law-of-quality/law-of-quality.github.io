@@ -13,6 +13,10 @@
     .home & {
       top: var(--ticker-height);
     }
+
+    .menu-open & {
+        top: 0;
+    }
 }
 
 .animated {

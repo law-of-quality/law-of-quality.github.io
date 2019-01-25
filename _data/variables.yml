@@ -26,8 +26,8 @@ flash--b: 'var(--c-fun)'
 flash--b-shadow: '#9ddfd0'
 alt: '#999'
 c-ticker: "white"
-c-ticker-bg: "var(--c-fun2)"
-ticker-height: 4rem
+c-ticker-bg: "var(--c-text)"
+ticker-height: 3rem
 l-max-width: '800px'
 box-shadow: '0 10px 25px rgba(0,0,0,.1)'
 c-frame: 'var(--flash--a)'
@@ -35,4 +35,6 @@ c-cta: 'var(--flash--a)'
 
 # fonts
 flash-1-fontsize: '75px'
-flash-2-fontsize: '60px'
+flash-2-fontsize: '50px'
+
+u-easing: "cubic-bezier(0.23, 1, 0.32, 1)"

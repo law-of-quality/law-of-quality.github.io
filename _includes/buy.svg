@@ -1,5 +1,6 @@
 <a href="{{site.data.translations[page.lang].buy-page}}" alt="{{site.data.translations[page.lang].buy}}" title="{{site.data.translations[page.lang].buy}}">
   <button class="button button--buy-now">
+    <span class="u-hide-small">{{site.data.translations[page.lang].buy}}</span>
     <svg viewBox="0 0 28 28" fill="white">
       <path d="M13,4.263C13,1.908,11.127,0,9,0C6.875,0,5,1.908,5,4.263V6H0v20.12
         C0,27.154,0.873,28,1.899,28H18V6h-5V4.263z M11,6H7V4.263c0-0.661,0.221-1.281,0.642-1.747C8.064,2.048,8.619,1.79,9.215,1.79

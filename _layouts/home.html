@@ -2,7 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: 'de' }}">
   {% include head.html %}
   <body class="{{page.class}}">
-    <button id="colorSwitcher">colors</button>
+    <button id="colorSwitcher">colors <em id="count"></em></button>
     {% include menu.html %}
     <main aria-label="Content" class="{{page.title | slugify}}">
       {{ content }}
@@ -11,5 +11,30 @@
     <script>
       {% include colorSwitcher.js %}
     </script>
+            <script>
+              // nav trigger
+              const el = document.querySelector('#nav-icon4');
+              const body = document.querySelector('body');
+              const myHeader = document.querySelector("header");
+              const ticker = document.querySelector(".ticker-wrap")
+
+              el.onclick = function () {
+                el.classList.toggle('open');
+                body.classList.toggle('menu-open');
+                ticker.classList.toggle('ticker-wrap--hidden');
+
+              }
+
+              const headroom = new Headroom(myHeader, {
+                "offset": 205,
+                "tolerance": 5,
+                "classes": {
+                  "initial": "animated",
+                  "pinned": "slideDown",
+                  "unpinned": "slideUp"
+                }
+              });
+              headroom.init();
+            </script>
   </body>
 </html>

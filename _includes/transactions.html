@@ -16,7 +16,7 @@
             <div class="transaction--size"> {{ site.data.translations[page.lang][size] }}</div>
             <div class="{%- if transaction.success -%}transaction--success{% else %}transaction--buy{%- endif -%}"> 
                 {%- if transaction.success == true -%}
-                <span class="u-hide-small">{{ site.data.translations[page.lang].transaction-success }} </span>&#x2713;
+               <button disabled class="button button--success button--disabled"><span class="u-hide-small">{{ site.data.translations[page.lang].transaction-success }} </span>&#x2713;</button>
                 {% else %}
                   {% include buy.svg %}
                 {%- endif -%}
@@ -38,7 +38,9 @@
             <div class="transaction--size"> {{ site.data.translations[page.lang][size] }}</div>
             <div class="{%- if transaction.success -%}transaction--success{% else %}transaction--buy{%- endif -%}"> 
                 {%- if transaction.success == true -%}
-                <span class="u-hide-small">{{ site.data.translations[page.lang].transaction-success }} </span>&#x2713;
+            <button disabled class="button button--success button--disabled"><span class="u-hide-small">{{
+                    site.data.translations[page.lang].transaction-success }} </span>&#x2713;</button>
+
                 {% else %}
                  {% include buy.svg %}
                 {%- endif -%}
