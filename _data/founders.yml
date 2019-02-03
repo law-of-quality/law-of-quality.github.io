@@ -6,7 +6,7 @@
   rendite: 16.66%!
   link: 
   images: 
-      - caflisch1.jpg
+      - caflisch1b.jpg
 - name: Galerie Markus Vonlanthen
   occupation: Galerist
   location: Chur
@@ -33,7 +33,7 @@
   rendite: 16.66!
   link: 
   images: 
-    - stefan1.jpg
+    - stefan1b.jpg
 - name: Daniel Hellmann
   occupation: Sänger und Theaterschaffender
   location: Zürich/Berlin
@@ -42,7 +42,7 @@
   rendite: 16.66%!!
   link: 
   images: 
-    - hellmanni.jpg
+    - hellmannib.jpg
 - name: Michaela Kretschmann
   location: Köln
   amt: 3792
@@ -50,10 +50,10 @@
   rendite: 16.66%!!
   link: 
   images: 
-    - michaela1.jpg
+    - michaela1b.jpg
 - name: Martin Kunzi 
   location: Zürich
   amt: 5056
   link: 
   images: 
-    - kunzi.jpg
+    - kunzib.jpg

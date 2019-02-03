@@ -117,13 +117,20 @@
       }
 
   .home & {
-    top: .5rem;
+    top: var(--l-body-padding);
+    @include media-query($on-palm) {
+        top: .5rem;
+    }
   }
 }
 .menu-open .site-nav {
   position: absolute;
   left: 0;
-  right: 0;
+  right: 2rem;
+
+  @include media-query($on-palm) {
+      right: 0;
+  }
 }
 
 /**
