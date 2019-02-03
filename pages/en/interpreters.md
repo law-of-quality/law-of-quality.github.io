@@ -21,23 +21,23 @@ The performers receive 30% of the price increase if the work of art The Law of Q
 
 ### Example
 
-• Quality founder 1 purchases The Law of Quality on April 10th 2011 for $1’000.
-• Performers 1 perform The Law of Quality on April 15th 2011.
-• Quality founder 2 purchases The Law of Quality on April 16th 2011 for $1’300.
-• → Performers 1 receive 30% of the price increase (100% = $300 / 30% = $90).
-• Performers 2 perform The Law of Quality on April 20th 2011.
-• Quality founder 3 purchases The Law of Quality on April 20th 2011 for $1’700.
-• → Performers 2 receive 30% of the price increase (100% = $400 / 30% = $120).
+- Quality founder 1 purchases The Law of Quality on April 10th 2011 for $1’000.
+- Performers 1 perform The Law of Quality on April 15th 2011.
+- Quality founder 2 purchases The Law of Quality on April 16th 2011 for $1’300.
+- → Performers 1 receive 30% of the price increase (100% = $300 / 30% = $90).
+- Performers 2 perform The Law of Quality on April 20th 2011.
+- Quality founder 3 purchases The Law of Quality on April 20th 2011 for $1’700.
+- → Performers 2 receive 30% of the price increase (100% = $400 / 30% = $120).
 
 ### Platform
 The Law of Quality offers all performers the possibility to publish their audio and/or video recording of the musical work The Law of Quality on the website www.lawofquality.com. Of course this includes a short portrait of the musicians and a link to their homepage.
 
 ### Further information
 
-• If no transaction takes place during the performers’ share of profits, they will not yield any profit.
-• If various performers’ announce a performance for the same date, those performers who first announced their performance via email will receive the share of profits.
-• The Law of Quality does not inform when a performance is scheduled.
-• The Law of Quality reserves the right to decide in case of dispute if a performance is to be considered “public”.
+- If no transaction takes place during the performers’ share of profits, they will not yield any profit.
+- If various performers’ announce a performance for the same date, those performers who first announced their performance via email will receive the share of profits.
+- The Law of Quality does not inform when a performance is scheduled.
+- The Law of Quality reserves the right to decide in case of dispute if a performance is to be considered “public”.
 
 ### Profit-Sharing Performers:
 

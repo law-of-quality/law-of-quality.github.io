@@ -11,38 +11,37 @@ ref: quality-start
 ### Quality Founders
 {% include founders.html %}
 
-### Wie werde ich Qualitätsstifter?
-Qualitätsstifter kann jeder werden, der das Kunstobjekt *The Law of Quality* zum aktuellen Preis erwirbt. Jeder Qualitätsstifter muss auf der Rückseite des Kunstobjektes seine Unterschrift hinterlassen und sich damit darauf verewigen. Diese Unterschriftenliste, welche den Namen ‚Qualitätsstifter’ trägt, ist immer einsehbar, da der Spezialrahmen ebenso auf der Rückseite Einblick gewährt.
+### How do I become a Quality Founder?
+Everyone who purchases the work of art The Law of Quality at the current price can become a Quality Founder. Each Quality Founder must sign the reverse side of the work of art, thus immortalizing himself or herself on it. This list of signatures, named “Quality Founder”, is visible at all times, since the custom-made special frame also allows for a peek at the back.
 
-### Warum ist es interessant, Qualitätsstifter zu werden?
-Erstmalig ist es möglich, die Qualität eines Kunstobjektes zu steigern. Ihr Name wird als Qualitätsstifter sowohl auf dem Kunstobjekt selber vermerkt, als auch auf dieser Internetseite eingetragen.
 
-Jeder Qualitätsstifter kann Geld verdienen. Wird das Kunstobjekt von einem neuen Qualitätsstifter erworben, erhalten Sie Ihre Investition vollumfänglich zurück. Steigt der Preis, sind Sie zusätzlich mit 50% der Preissteigerung gewinnbeteiligt.
+### Why is it interesting to become a quality founder?
+For the first time, it is possible to increase the quality of a work of art. As a Quality Founder, your name will be inscribed both on the work of art itself and on this web site.
 
-### Transaktion
-1. Eine Transaktion beginnt mit der Anmeldung über das Kontakformular. In diesem Schreiben soll das Interesse angemeldet werden, das Kunstobjekt zu erwerben und Qualitätsstifter zu werden. 
-2. Die The Law of Quality-Zentrale bestätigt Ihnen den Preis. Falls eine Warteliste besteht, wird ebenfalls über die Wartefrist informiert. 
-3. Der Vertrag muss unterschrieben werden. Dies können Sie durch die Bestätigung online erledigen. 
-4. Nach der Bestätigung des Vertrages erhalten Sie die Kontodaten. Bitte zahlen Sie den Betrag nun ein.
-5. Nach Erhalt des Betrages wird das Kunstobjekt vom bisherigen Qualitätsstifter zurückverlangt und an Sie gesendet.
-6. Ihr eingezahltes Geld wird erst dann entsprechend dem Schlüssel verteilt, wenn Sie das Kunstobjekt erhalten haben. Bis dahin bleibt es auf dem Konto von The Law of Quality eingefroren und ist gesichert.
+Every Quality Founder can earn money. You will fully retrieve your investment if a new Quality Founder purchases the work of art. Additionally, you receive a 50% share of profits if the price increases. 
 
-### Gewinnaufteilungsschlüssel
-Die Steigerung des Preises zwischen einem Kauf und dem nächsten wird stets nach demselben Schlüssel aufgeteilt:
+### Transactions
+1. A Transaction begins with the registration-form. In this formular, you express your interest in purchasing the work of art and becoming a quality founder.
+2. You receive a confirmation of the price by the Law of Quality headquarters. In case there is a waiting list, you will also be informed about the waiting period. 
+3. It is mandatory that the contract be signed. This can be done online via the confirmation. 
+4. After confirmation of contract, you will receive the account details. Please make the deposit.
+5. Upon receipt of money, the work of art will be reclaimed from the previous quality founder and send to you.
+6. It is not until you have received the work of art that your deposited money will be distributed according to the key for the apportionment of profits. Until then, it remains safely freezed on The Law of Quality’s account.
 
-50% gehen an den letzten Qualitätsstifter
-30% an die gewinnbeteiligten Interpreten
-15% an Patrick Frank
-5% an den geheimen Kunstagenten
+### Key for apportionment of profits
+The price increase between one purchase and the next will always be split according to the same key:
+50% go to the previous quality founder
+30% go to the participating interpreters
+15% go to Patrick Frank
+5% go to the art dealer
 
-Beispiel:
+### Example:
 
-Qualitätsstifter 1 zahlt 1000 US-Dollars.
-Qualitätsstifter 2 zahlt 1500 US-Dollars.
+Quality founder1 pays $1’000
+Quality founder2 pays $1’500
 
-→ Qualitätsstifter 1 erhält 1000 US-Dollars zurück.
-→ Qualitätsstifter 1 erhält zusätzlich 50% des gesteigerten Preises, d.h. 250 US-Dollars.
-→ Die gewinnbeteiligten Interpreten erhalten 30% des gesteigerten Preises, d.h. 150 US-Dollars.
-→ Patrick Frank erhält 15% des gesteigerten Preises, d.h. 75 US-Dollars.
-→ Der geheime Kunstagent erhält 5% des gesteigerten Preises, d.h. 25 US-Dollars.
-
+- → Quality founder1 gets $1’000 back.
+- → Quality founder1 receives additional 50% of the increased price, i.e. $250
+- → The participating interpreters receive 30% of the increased price, i.e. $150.
+- → Patrick Frank receives 15% of the increased price, i.e. $75.
+- → The art dealer receives 5% of the increased price, i.e. $25.

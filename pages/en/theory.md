@@ -6,57 +6,57 @@ lang: en
 ref: theory
 
 ---
-Der Kapitalismus und sein primäres Medium – das Geld – haben dann ihre maximale Wirksamkeit entfaltet, wenn der monetäre Wert zum moralischen Wert wird und beide ineinander verschmelzen.
+Capitalism and its primary medium——money——have their maximum effectiveness when monetary value becomes moral value and both blend into one another.
 
-Wie schön sich das in der Kunst zeigen lässt! Die Beispiele in der bildenden Kunst liegen auf der Hand und müssen nicht nochmals erwähnt werden, doch auch die Neue Musik zehrt ihre qualitativen Urteile aus Quantitäten. Wie?
+How beautifully that can be shown through art! Examples in the visual arts are obvious and need not be mentioned again, but even New Music gathers its qualitative advantages through quantities. How?
 
-Exemplarisch ist Googles Suchalgorithmus. Er präferiert Quantitäten: eine Webseite erscheint dann weit vorne im Suchresultat, wenn sie mit anderen Webseiten verlinkt ist, die ihrerseits gut verlinkt sind. Was also zählt ist die Verlinkung, aber nicht der Inhalt einer Verlinkung. Wikipedia klärt uns auf:
+One example is Google's search algorithm. It favors quantities: a web page will appear well in the search results if it is linked to other websites that are well linked. What counts is the linking, but not the content of a link. Wikipedia explains:
 
-_Die Linkpopularität ist ein Maßstab für die Anzahl und Qualität von Hyperlinks, die auf eine Webseite weisen. Je häufiger eine Seite verlinkt wird, desto höher ist die Linkpopularität dieser Seite._
+> Link popularity is a measure of the number and quality of hyperlinks pointing to a web page. The more frequently a page is linked, the higher the link popularity of this page.
 
-Ganz unverfroren wird hier Quantität mit Qualität gleich gesetzt: die Rede ist von der Qualität von (Hyper)links, die aus der Häufigkeit ihrer Verlinkung gemessen wird.
+Quite unabashedly, quantity is equated with quality: we are talking about the quality of (hyper) links, which is measured by the frequency of their linking.
 
-Das Resultat dieser Logik führt dann dazu, dass _immer mehr kommuniziert wird, dass nichts kommuniziert wird_ (Georg Seeslen in Blödmaschinen.) Oder, wie es Jean Baudrillard bereits in den 80ern treffend auf den Punkt bringt: _Immer dort, wo nichts mehr ist, entsteht eine Art Überfülle_ (Die fatalen Strategien).
+The result of this logic then leads to more and more communication, that nothing is communicated (Georg Seeslen in stupid machines). Or, as Jean Baudrillard in the 80s aptly sums it up: Wherever there is nothing, there arises a kind of overabundance (the fatal strategies).
 
-Natürlich stehen auch die Akteure der Neuen Musik und ihre Werke im Einflussbereich dieser Logik. Ich zitiere nochmals Wikipedias Beschreibung von Googles Linkpopularität und ersetze die Begriffe:
+Of course, the creators of New Music and their works are in the sphere of influence of this logic. I cite Wikipedia's description of Google's link popularity and replace the terms:
 
-_Die Relevanz zeitgenössischer Komponisten (und ihrer Werke) ist ein Maßstab für die Anzahl und Qualität ihrer Kontakte, die auf neue Kontakte weisen. Je häufiger ein Komponist kontaktiert wird, desto höher ist die Relevanz dieses Komponisten._
+> The relevance of contemporary composers (and their works) is a measure of the number and quality of their contacts, which point to new contacts. The more frequently a composer is contacted, the higher the relevance of this composer.
 
-oder wissenschaftliche Aufsätze:
+Or scientific essays:
 
-_Die Relevanz wissenschaftlicher Aufsätze ist ein Maßstab für die Anzahl und Qualität von Zitaten, die auf neue Zitate verweisen. Je häufiger ein wissenschaftlicher Aufsatz zitiert wird, desto höher ist die wissenschaftliche Relevanz dieses Aufsatzes._
+> The relevance of scientific papers is a measure of the number and quality of citations that refer to new quotes. The more frequently a scientific essay is cited, the higher the scientific relevance of this essay.
 
-Natürlich, das ist alles nichts neues, das gabs schon immer. Autoren wie Baudrillard zeigen jedoch auf, dass im Zustand völliger Entfesselung (das ist, wenn qualitative Massstäbe leer geworden sind) Quantität widerstandslos in Qualität umschlägt. Das wäre die totale Herrschaft der Hitparaden, Einschaltquoten und Marktwirtschaft. Aber auch die totale Herrschaft des korrupten Gentleman.
+Of course, that's nothing new, that's always been there. However, authors like Baudrillard show that in the state of total unleashing (that is, when qualitative measures have become empty), quantity turns into quality without resistance. That would be the total rule of hit parades, ratings and market economy. But also the total rule of the corrupt gentleman.
 
-Natürlich, langsam findet ein Umdenken statt. Krisen helfen heilen. Aber nicht wie der Neoliberalismus meint, ohne reflexives Zutun. Paradoxien sollen entfaltet werden.
+Of course, a rethinking slowly takes place. Crises help heal. But not as neo-liberalism argues, without reflexive action. Paradoxes are to be unfolded.
 
 ## Buchempfehlung:
 
 ### Isabelle Graw: Der grosse Preis
 
-Isabelle Graw: Der große Preis. Kunst zwischen Markt und Celebrity Kultur, 256 Seiten, DuMont Verlag 2008, Euro 19,90
+Isabelle Graw: Der große Preis. Kunst zwischen Markt und Celebrity Kultur, 256 pp., DuMont Verlag 2008, €19,90
 
-Dadurch, dass sie einen Preis haben, unterscheiden sich Kunstwerke nicht von Dosenfischen – oder von Zahnbehandlungen. Zunächst könnte man darum die These von Isabelle Graw, Kunst und Markt seien miteinander verschränkt, ohne doch in eins zu fallen, trivial finden. Denn eben dies gilt auch für den gegenseitigen Bezug von Fisch und Markt oder professioneller Arbeit und Markt. Märkte konstituieren sich durch Konkurrenz um Zahlungen. An den Objekten, die solche Zahlungen auszulösen vermögen, interessieren dabei ökonomisch niemals alle ihrer Eigenschaften. Verglichen mit anderen Waren gehört manche Kunst, so gesehen, zum Luxussegment des Marktes für dauerhafte Konsumgüter und konkurriert dort beispielsweise mit Pferden, Booten, Möbeln und Schmuck. Dabei ist immer klar, dass man mit Booten anderes anstellen kann als mit Bildern.
+Because they have a price, artworks are no different from canned fish - or dental treatments. At first, one could find the thesis of Isabelle Graw's trivial—that art and the market are interlinked, without merging into one. Because this is also true for the mutual relation of fish and market or professional work and market. Markets are created by competition for payments. The objects that can trigger such payments are never economically interested in all their properties. Compared to other goods, some art is part of the luxury segment of the consumer durables market where it competes with, for example, horses, boats, furniture and jewelery. It is always clear that you can do different things with boats than with pictures.
 
 [Der grosse Preis](http://www.dumont-buchverlag.de/buch/graw-der-grosse-preis-9783832190071/)
 
 ### Caleb Larsen
 
-Caleb Larsen hat 2008 einen schwarzen Plastikwürfel mit Internet-Verbindung gebaut und einem Script, der das Teil seit dem auf Ebay verkauft, sobald das Ding einen neuen Käufer fand, wird automatisch eine neue Auktion gestartet, die aktuelle Auktion steht bei nicht weniger als $4259.
+Caleb Larsen built a black plastic cube with Internet connection in 2008 and a script through which it sells itself on Ebay. As soon as it is bought, it automatically creates a new auction with the last sale price as the new starting price. The current auction stands at more than $7'500.
 
-[Artwork Sells Itself on eBay](http://www.crackajack.de/2010/01/25/artwork-sells-itself-on-ebay/)
+[Artwork Sells Itself on eBay](https://visuall.net/2012/07/07/a-tool-to-deceive-and-slaughter-by-caleb-larsen/)
 
 ### Wolfgang Ullrich
 
 Marktkunst
 Über eine zeitgenössische Erscheinungsweise des Erhabenen
 
-Auf kaum etwas ist im Kunstbetrieb besser Verlass als auf marktkritische Bemerkungen. Schon seit der Romantik ist es Standard, die Sorge zu formulieren, die Kunst könne durch kommerzielle Interessen, durch warenökonomische Mechanismen, durch den Pragmatismus einer Handelsbeziehung Schaden nehmen. So wird befürchtet, dass auf dem Markt nur Erfolg hat, was auch einer Mehrheit gefällt – was also konventionell und harmlos, vielleicht sogar trivial und kitschig ist, während das Neue, Ungewohnte – und daher zuerst Befremdende – nur wenig Resonanz findet. Kaufen die meisten denn nicht nur das, was sie schon kennen? Und ist der Markt damit nicht eine konservative Instanz, die der Weiterentwicklung der Kunst schadet? Die vor allem dem Anspruch zuwiderläuft, wonach sich Kunst durch Originalität – durch Distanz von bereits vorhandenen, etablierten Werken – auszuzeichnen hat? Ist der Markt also nicht der Gegner der Kunst?
+If there's one thing that cultural activities rely on the most, it's criticism of the market. Ever since the Romantic era, it has been standard practice to express the concern that art can be damaged by commercial interests, by commodity-economic mechanisms, by the pragmatism of a trade relationship. So it is feared that in the market only has success, which also a majority like - which is so conventional and harmless, perhaps even trivial and cheesy, while the new, unfamiliar - and therefore first strangers - finds little resonance. Do not most people just buy what they already know? And is not the market thus a conservative body that harms the further development of art? Which, above all, runs counter to the claim that art must be distinguished by originality - by distance from already existing, established works? So is not the market the adversary of art?
 
-Ganzer Text, Download: [Wolfgang Ullrich – Marktkunst.pdf](/assets/pdf/marktkunst.pdf)
+Entire text (German), Download: [Wolfgang Ullrich – Marktkunst.pdf](/assets/pdf/marktkunst.pdf)
 
 ### Kunst im Netz: große Quantitäten.
 
-Vortrag von Johannes Kreidler, gehalten 12.2.2011 bei der Veranstaltung "Der Kongress bloggt", Kunsthaus Rhenania, Köln.
+Lecture by Johannes Kreidler, given 12 February, 2011 at the conference "Der Kongress bloggt", Kunsthaus Rhenania, Cologne (in German).
 
 {% include video.html video-id="ySu-Au0SF_M" %}

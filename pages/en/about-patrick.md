@@ -10,15 +10,14 @@ ref: about
 
 ### Vita
 
-Born on 4.4.1975 in Rio de Janeiro, Brasilien.
+Born 4 April, 1975, in Rio de Janeiro, Brasil.
 
-Klavierstudium bei Martin Christ, Musiktheoriestudium bei Andreas Nick und Kompositionsstudium bei Thomas Müller und Isabel Mundry. Kompositionsseminare bei Klaus Huber, Chaya Czernowin, Manuel Hidalgo, Alvin Lucier und Peter Eötvös, u.a.
+Piano study with Martin Christ, music theory with Andreas Nick and composition with Thomas Müller and Isabel Mundry. Composition seminar with Klaus Huber, Chaya Czernowin, Manuel Hidalgo, Alvin Lucier and Peter Eötvös, among others.
 
-2002 Gründer und künstlerischer Leiter der Projektreihe traute, dessen erstes Projekt SEIN/NICHTS in Zürich und Baar aufgeführt und von den WorldNewMusic Days04' zur Realisation ausgewählt wurde. Im Mai 06’ wurde die Konzert-Installation Limina in CO-Produktion mit der IGNM Basel in Basel realisiert. Das Projekt Limina kam im März 07’ im Europäischen Zentrum der Künste Hellerau, Dresden, zur erfolgreichen Uraufführung. Erste Buchveröffentlichung zum Projekt Limina/’Indifferenz in Kunst und Kultur’ als Herausgeber
-und Co-Autor (mit Peter Gross, Soziologe, Harry Lehmann, Philosoph, Isabel Mundry, Komponistin, u.a.)
+2002 founder and artistic director of the series **traute**, whose first project **SEIN/NICHTS** was performed in Zürich and Baar and was chosen to be produced at WorldNewMusic Days 2004. In May 2006, the concert-installation **Limina** was produced in Basel, in collaboration with IGNM Basel. March, 2007, successful debut of *Limina* at the European Center for the Art Hellerau in Dresden. First book release for **Project Limina/"Indifference in Art and Culture"** as publisher and co-author (with Peter Gross, sociologist; Harry Lehmann, philosopher; Isabel Mundry, composer; et al).
 
-Preisträger des Werkjahres der Christoph-Delz Stiftung, Basel 2005. Förderung des Projektes Limina durch die Bundeskulturstiftung/D, 2006. Preisträger des Werkjahres für Komposition der Stadt Zürich, 2007. Preisträger des Kunstpreises Zollikon, 2010.
+Winner of the Year of Experience prize from the Christoph-Delz Foundation, Basel in 2005. Further development of **Project Limina** through the German Federal Cultural Foundation, 2006. Winner of the Zürich City yearly composition stipend, 2007. Winner of the Zollikon Art Prize, 2010. 
 
-Arbeitet als freischaffender Komponist und Projektentwerfer in Zürich. Studium der Kulturwissenschaften, Philosophie und Soziologie an der Universität Luzern.
+Works as an independent composer and project designer in Zürich. Studied cultural theory, philosophy and sociology at the University of Luzern.
 
-[Zur Website von Patrick Frank](https://patrickfrank.ch){: target="_blank"}
+[Visit Patrick Frank's Website](https://patrickfrank.ch){: target="_blank"}
