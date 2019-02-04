@@ -9,7 +9,7 @@ class: buy
 lang: de
 ref: buy
 ---
-Melden Sie sich bei dem Kunstler, um The Law of Quality zu kaufen: [artist@lawofquality.com](mailto:patrick@lawofquality.com)
+Melden Sie sich bei dem Kunstler, um The Law of Quality zu kaufen: [quantity@lawofquality.com](mailto:quantity@lawofquality.com)
 
 {:.u-centered}
 ![Original Partitur](/assets/img/partitur-rahmen.jpg){:.partitur-frame}

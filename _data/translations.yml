@@ -43,9 +43,6 @@ en:
     intro: 
       name: Introduction
       url: /en/
-    theory: 
-      name: The Theory
-      url: /en/theory/
     founders:
       name: The Quality Founders
       url: /en/founders/
@@ -58,6 +55,9 @@ en:
     contract: 
       name: The Contract
       url: /en/contract/
+    theory: 
+      name: The Theory
+      url: /en/theory/
     patrick:
       name: The Artist, Patrick Frank
       url: /en/about-patrick/
@@ -112,9 +112,6 @@ de:
     intro: 
       name: Intro
       url: /
-    theory: 
-      name: Theorie & Hinweise
-      url: /theorie/
     founders:
       name: Qualitätsstifter
       url: /qualitaetsstifter/
@@ -127,6 +124,9 @@ de:
     contract: 
       name: Vertrag
       url: /vertrag/
+    theory: 
+      name: Theorie & Hinweise
+      url: /theorie/
     patrick:
       name: Über Patrick Frank
       url:  /ueber-patrick/
