@@ -1,0 +1,15 @@
+{
+  "name": "law-of-quality",
+  "version": "1.0.0",
+  "description": "Website for The Law of Quality",
+  "author": "Nick Niles <nick@nickniles.com>",
+  "devDependencies": {
+    "autoprefixer": "9.3.1",
+    "postcss-cli": "6.0.1",
+    "postcss-import": "12.0.1",
+    "postcss-nested": "^4.1.0",
+    "purgecss": "1.1.0",
+    "stylelint": "9.8.0",
+    "stylelint-config-standard": "18.2.0"
+  }
+}
