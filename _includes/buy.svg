@@ -1,5 +1,4 @@
-<a href="{{site.data.translations[page.lang].buy-page}}" alt="{{site.data.translations[page.lang].buy}}" title="{{site.data.translations[page.lang].buy}}">
-  <button class="button button--buy-now">
+<a href="{{site.data.translations[page.lang].buy-page}}" role="button" {% if include.index != include.available and include.freemarket == false %}disabled{% endif %} class="button button--buy-now" alt="{{site.data.translations[page.lang].buy}}" title="{{site.data.translations[page.lang].buy}} {{include.index}}">
     <span class="u-hide-small">{{site.data.translations[page.lang].buy}}</span>
     <svg viewBox="0 0 28 28" fill="white">
       <path d="M13,4.263C13,1.908,11.127,0,9,0C6.875,0,5,1.908,5,4.263V6H0v20.12
@@ -8,5 +7,4 @@
         C23,1.908,21.127,0,19.001,0S15,1.908,15,4.263V5h2V4.263c0-0.661,0.012-1.281,0.434-1.747c0.421-0.468,0.871-0.726,1.467-0.726
         s1.09,0.258,1.513,0.726C20.836,2.982,21,3.602,21,4.263"/>
     </svg>
-  </button>
 </a>

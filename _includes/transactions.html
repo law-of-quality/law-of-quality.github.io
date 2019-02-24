@@ -1,3 +1,6 @@
+{% assign freemarket = true %}
+{% assign lastbought = 0 %}
+
 <div class="transactions">
     <h2>{{ site.data.translations[page.lang].transactions-title}}</h2>
     <h3>{{ site.data.translations[page.lang].transactions-section1-title}}</h3>
@@ -16,9 +19,12 @@
             <div class="transaction--size"> {{ site.data.translations[page.lang][size] }}</div>
             <div class="{%- if transaction.success -%}transaction--success{% else %}transaction--buy{%- endif -%}"> 
                 {%- if transaction.success == true -%}
+                {% assign lastbought = forloop.index %}
                <button disabled class="button button--success button--disabled"><span class="u-hide-small">{{ site.data.translations[page.lang].transaction-success }} </span>&#x2713;</button>
                 {% else %}
-                  {% include buy.svg %}
+                  {% assign freemarket = false %}
+                  {% assign available = lastbought | plus:1 %}
+                  {% include buy.svg index=forloop.index available=available freemarket=freemarket %}
                 {%- endif -%}
             </div>
         </div>
@@ -42,7 +48,8 @@
                     site.data.translations[page.lang].transaction-success }} </span>&#x2713;</button>
 
                 {% else %}
-                 {% include buy.svg %}
+                {% assign available = 1 %}
+                {% include buy.svg index=0 available=available freemarket=freemarket %}
                 {%- endif -%}
             </div>
         </div>

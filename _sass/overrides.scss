@@ -109,9 +109,8 @@ body.home {
 
 main {
     padding: 0 2rem 2rem 2rem;
-
     @include media-query($on-palm) {
-      padding: 0 1rem 1rem 1rem;
+        padding: 0 1rem 1rem 1rem;
     }
 }
 
@@ -128,9 +127,8 @@ main {
     .buy & {
         margin-top: 0;
     }
-
     .score-page & {
-      margin-top: 0;
+        margin-top: 0;
     }
 }
 
@@ -174,12 +172,12 @@ $logo_max_font: 48px;
 }
 
 .site-title h1 {
-  will-change: text-shadow;
-  animation-name: glow;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
+    will-change: text-shadow;
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 .site-title,
@@ -248,9 +246,6 @@ $logo_max_font: 48px;
     }
 }
 
-
-
-
 @-webkit-keyframes hue {
     from {
         -webkit-filter: hue-rotate(0deg);
@@ -261,12 +256,12 @@ $logo_max_font: 48px;
 }
 
 @keyframes glow {
-  0% {
-      text-shadow: 0 0 0 var(--flash--a);
-  }
-  100% {
-      text-shadow: 0 0 50px var(--flash--a);
-  }
+    0% {
+        text-shadow: 0 0 0 var(--flash--a);
+    }
+    100% {
+        text-shadow: 0 0 50px var(--flash--a);
+    }
 }
 
 .ticker-wrap {
@@ -280,8 +275,7 @@ $logo_max_font: 48px;
     background-color: var(--c-ticker-bg);
     padding-left: 100%;
     box-sizing: content-box;
-    transition: transform .2s var(--u-easing);
-    // animation: hue 60s infinite linear;
+    transition: transform .2s var(--u-easing); // animation: hue 60s infinite linear;
     z-index: 999;
     .ticker {
         display: inline-block;
@@ -306,7 +300,6 @@ $logo_max_font: 48px;
             font-weight: 500;
         }
     }
-
     &--hidden {
         transform: translateY(-100%);
     }
@@ -334,8 +327,7 @@ $logo_max_font: 48px;
         }
     }
     &--copyright {
-        text-align: center;
-        // color: var(--c-gray);
+        text-align: center; // color: var(--c-gray);
     }
     &--menu {
         display: flex;
@@ -486,10 +478,9 @@ $logo_max_font: 48px;
     // right: 4vw;
     margin-left: -16px;
     @include media-query($on-palm) {
-      margin-left: 0;
+        margin-left: 0;
     }
-
- }
+}
 
 #nav-icon4.open span {
     background-color: var(--c-logo);
@@ -573,14 +564,15 @@ $logo_max_font: 48px;
         align-items: center;
         margin: 0 -2rem;
         padding: 2vw 10vw;
-        
         &__item {
             width: calc(100%/3);
             display: flex;
             padding: 1vw;
         }
     }
-    .flash2, .flash2a, .flash3 {
+    .flash2,
+    .flash2a,
+    .flash3 {
         position: relative;
         transform: none !important;
         width: 100%;
@@ -624,10 +616,9 @@ $logo_max_font: 48px;
     &--section {
         margin-bottom: 2rem;
     }
-
     @include media-query($on-palm) {
-      font-size: 80%;
-      padding: .75rem;
+        font-size: 80%;
+        padding: .75rem;
     }
 }
 
@@ -693,6 +684,7 @@ $logo_max_font: 48px;
     &--success {
         background-color: var(--c-success);
         color: var(--c-text);
+        cursor: default;
     }
     &--buy-now {
         svg {
@@ -703,6 +695,19 @@ $logo_max_font: 48px;
         &:hover {
             background-color: var(--flash--a-shadow);
             box-shadow: 0 1px 5px rgba(black, .2);
+        }
+        &:disabled,
+        &[disabled] {
+            cursor: default;
+            background-color: var(--c-light-gray);
+            color: #999;
+            pointer-events: none;
+            &:hover {
+                box-shadow: none;
+            }
+        }
+        &:visited {
+            color: white;
         }
     }
 }
@@ -768,7 +773,7 @@ $logo_max_font: 48px;
 }
 
 .founders-slider {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .founder-slide {
@@ -838,8 +843,7 @@ $logo_max_font: 48px;
 }
 
 .intro-title {
-    text-transform: uppercase;
-    // font-size: 3rem;
+    text-transform: uppercase; // font-size: 3rem;
     // display: inline-block;
     // font-weight: 800;
     // line-height: 1;
