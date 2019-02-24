@@ -1,5 +1,5 @@
 <div class="founders-slider">
-  <h3>{{ site.data.translations[page.lang].founders | "foundersss" }}</h3>
+  <h3>{{ site.data.translations[page.lang].founders | "founders" }}</h3>
   {%- assign foundersLength = site.data.founders.size - 1 -%}
   <div class="main-carousel" data-flickity='{ "imagesLoaded": true, "cellAlign": "center", "contain": false, "freeScroll": false, "prevNextButtons": true,
   "pageDots": false, "initialIndex": {{site.data.founders.size | minus: 1}}}'>

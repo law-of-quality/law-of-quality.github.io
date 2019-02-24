@@ -5,7 +5,7 @@ permalink: /en/performers/
 lang: en
 ref: performers-start
 ---
-
+{% include performers.html %}
 Performers receive a 30% share of profits of the price increase by publicly performing The Law of Quality (provided that at least one transaction of the work of art takes place). This is an offer provided by The Law of Quality, which takes place if:
 
 1)The performers notify the Law of Quality headquarters at least 14 days before a public performance. 
@@ -57,7 +57,6 @@ Durch den Wechsel des Qualitätsstifters nach Aufführung und somit der Sicherun
 1. $5'056 (Preis 7. Transaktion) – $3'792 (Preis 6. Transaktion) = $1'264
 2. 30% von $1'264 = $379.20
 
-![Monrad Lorenz0](/assets/img/monrad-lorenzo.jpg)
 
 ### Ehemalige, gewinnbeteiligte Interpreten:
 
@@ -93,9 +92,6 @@ Aufführung am 20.1.2013, Sophiensaele in Berlin.
 
 Jakob Pilgram
 Judit Polgar
-
-![Jakob Pilgram](/assets/img/pilgram.jpg)
-*Jakob Pilgram bei der Aufführung*{:.caption}
 
 #### Julia Schiwowa und Mirjam Lüthi:
 

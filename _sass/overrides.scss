@@ -119,7 +119,7 @@ main {
     margin-top: -3vw;
     position: relative;
     margin-bottom: 3rem;
-    width: 700px;
+    // width: 700px;
     @include media-query($on-palm) {
         margin-top: -10vw;
         max-width: 80vw;

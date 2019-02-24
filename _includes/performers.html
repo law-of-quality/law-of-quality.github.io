@@ -1,0 +1,22 @@
+<div class="founders-slider">
+  <h3>{{ site.data.translations[page.lang].performers | "founders" }}</h3>
+  <div class="main-carousel" data-flickity='{ "imagesLoaded": true, "cellAlign": "center", "contain": false, "freeScroll": false, "prevNextButtons": true,
+  "pageDots": false}'>
+  {%- for founder in site.data.interpreters -%}
+  <div class="carousel-cell founder-slide">
+      <p class="founder-slide__number">#{{forloop.index}}</p>
+      <div class="founder-slide__info">
+        <p class="founder-slide__name">{{founder.names}}</p>
+        {%- if founder.location -%}
+          <p class="founder-slide__location">{{founder.location}}</p>
+        {%- endif -%}
+        <p class="founder-slide__amount">{{ founder.date }}</p>
+      </div>
+        {%- for image in founder.image -%}
+        <img src="/assets/img/{{image}}" alt="{{founder.name}}">
+        {%- endfor -%}
+  </div>
+  {%- endfor -%}
+</div>
+</div>
+

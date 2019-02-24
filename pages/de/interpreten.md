@@ -5,6 +5,7 @@ permalink: /interpreten/
 lang: de
 ref: performers-start
 ---
+{% include performers.html %}
 ### Ausgezahlte Gewinnbeteiligungen an die Interpretinnen:
 
 1. --> 2. Transaktion: $90 (30% der Differenz von $300): Julia Schiwowa
@@ -65,10 +66,6 @@ Durch den Wechsel des Qualitätsstifters nach Aufführung und somit der Sicherun
 1. $5'056 (Preis 7. Transaktion) – $3'792 (Preis 6. Transaktion) = $1'264
 2. 30% von $1'264 = $379.20
 
-
-![Monrad Lorenz0](/assets/img/monrad-lorenzo.jpg)
-
-
 ### Ehemalige, gewinnbeteiligte Interpreten:
 
 #### Daniel Bentz und Judit Polgar
@@ -103,9 +100,6 @@ Aufführung am 20.1.2013, Sophiensaele in Berlin.
 
 Jakob Pilgram
 Judit Polgar
-
-![Jakob Pilgram](/assets/img/pilgram.jpg)
-*Jakob Pilgram bei der Aufführung*{:.caption}
 
 #### Julia Schiwowa und Mirjam Lüthi:
 
