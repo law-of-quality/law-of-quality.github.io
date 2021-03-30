@@ -5,3 +5,4 @@ node_modules
 .DS_Store
 assets/.DS_Store
 assets/img/.DS_Store
+.jekyll-cache
